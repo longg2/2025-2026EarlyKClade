@@ -1,0 +1,11 @@
+Position	WT	AA	Source	Resistance	Vaccine					2a.3a.1						
+					I	II	III	IV		J.2.1	J.2	J.2.2	J.2.3	J.2.4	J.2.5	K
+142	N	N	-	-	2	2	2	2		9	1	13	6	39	6	401
+		S	Clin/Sur	"Oseltamivir, Zanamivir, Peramivir, Laninamivir"	-	-	-	-		-	-	-	-	-	-	5
+151	D	D	-	-	2	2	2	2		9	1	13	6	39	6	402
+		N	-	-	-	-	-	-		-	-	-	-	-	-	1
+		X	-	-	-	-	-	-		-	-	-	-	-	-	3
+292	R	K	Clin/Sur/Ose/RG	"Oseltamivir, Zanamivir, Peramivir"	-	-	-	-		-	-	-	-	-	-	1
+		R	-	-	2	2	2	2		9	1	13	6	39	6	405
+334	S	N	-	-	-	-	-	-		-	-	-	-	1	4	2
+		S	-	-	2	2	2	2		9	1	13	6	38	2	404

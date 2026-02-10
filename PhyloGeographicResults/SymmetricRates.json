@@ -1,0 +1,253 @@
+{
+  "axisAttributes": {
+    "xCoordinate": "xCoordinate",
+    "yCoordinate": "yCoordinate"
+  },
+  "lineAttributes": [
+    {
+      "id": "bayesFactor",
+      "scale": "linear",
+      "range": [
+        0.07,
+        44141.43
+      ]
+    },
+    {
+      "id": "posteriorProbability",
+      "scale": "linear",
+      "range": [
+        0.04,
+        1.0
+      ]
+    }
+  ],
+  "pointAttributes": [
+    {
+      "id": "xCoordinate",
+      "scale": "linear",
+      "range": [
+        -126.545,
+        4.9E-324
+      ]
+    },
+    {
+      "id": "yCoordinate",
+      "scale": "linear",
+      "range": [
+        45.225,
+        54.495
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "British_Columbia",
+      "coordinate": {
+        "xCoordinate": -126.545,
+        "yCoordinate": 54.15,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "Manitoba",
+      "coordinate": {
+        "xCoordinate": -95.485,
+        "yCoordinate": 54.495,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "New_Brunswick",
+      "coordinate": {
+        "xCoordinate": -66.415,
+        "yCoordinate": 46.335,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "Nova_Scotia",
+      "coordinate": {
+        "xCoordinate": -63.0,
+        "yCoordinate": 45.225,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "Ontario",
+      "coordinate": {
+        "xCoordinate": -84.75,
+        "yCoordinate": 49.26,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "Saskatchewan",
+      "coordinate": {
+        "xCoordinate": -105.675,
+        "yCoordinate": 54.495,
+        "altitude": 0.0
+      }
+    }
+  ],
+  "layers": [
+    {
+      "type": "tree",
+      "id": "SymetricRates.log",
+      "description": "BF graph layer",
+      "points": [
+        {
+          "id": "254609854",
+          "locationId": "British_Columbia",
+          "attributes": {}
+        },
+        {
+          "id": "195695337",
+          "locationId": "Manitoba",
+          "attributes": {}
+        },
+        {
+          "id": "840774528",
+          "locationId": "Nova_Scotia",
+          "attributes": {}
+        },
+        {
+          "id": "34124731",
+          "locationId": "New_Brunswick",
+          "attributes": {}
+        },
+        {
+          "id": "357684460",
+          "locationId": "Ontario",
+          "attributes": {}
+        },
+        {
+          "id": "1571393667",
+          "locationId": "Saskatchewan",
+          "attributes": {}
+        }
+      ],
+      "lines": [
+        {
+          "startPointId": "254609854",
+          "endPointId": "195695337",
+          "attributes": {
+            "bayesFactor": 1.2640623094520764,
+            "posteriorProbability": 0.4360626597044773
+          }
+        },
+        {
+          "startPointId": "254609854",
+          "endPointId": "34124731",
+          "attributes": {
+            "bayesFactor": 0.13352220212735236,
+            "posteriorProbability": 0.07551012850424027
+          }
+        },
+        {
+          "startPointId": "254609854",
+          "endPointId": "840774528",
+          "attributes": {
+            "bayesFactor": 0.07100178304415039,
+            "posteriorProbability": 0.04162500462911528
+          }
+        },
+        {
+          "startPointId": "254609854",
+          "endPointId": "357684460",
+          "attributes": {
+            "bayesFactor": 2450.757564483837,
+            "posteriorProbability": 0.9993334073991779
+          }
+        },
+        {
+          "startPointId": "254609854",
+          "endPointId": "1571393667",
+          "attributes": {
+            "bayesFactor": 11034.130653169199,
+            "posteriorProbability": 0.9998518683109284
+          }
+        },
+        {
+          "startPointId": "195695337",
+          "endPointId": "34124731",
+          "attributes": {
+            "bayesFactor": 0.17654806816469137,
+            "posteriorProbability": 0.09747065140910269
+          }
+        },
+        {
+          "startPointId": "195695337",
+          "endPointId": "840774528",
+          "attributes": {
+            "bayesFactor": 150.58270722061786,
+            "posteriorProbability": 0.9892604525423101
+          }
+        },
+        {
+          "startPointId": "195695337",
+          "endPointId": "357684460",
+          "attributes": {
+            "bayesFactor": 1296.690594576736,
+            "posteriorProbability": 0.9987408806428916
+          }
+        },
+        {
+          "startPointId": "195695337",
+          "endPointId": "1571393667",
+          "attributes": {
+            "bayesFactor": 5.21763803203158,
+            "posteriorProbability": 0.7614339147502129
+          }
+        },
+        {
+          "startPointId": "34124731",
+          "endPointId": "840774528",
+          "attributes": {
+            "bayesFactor": 44141.426852416465,
+            "posteriorProbability": 1.0
+          }
+        },
+        {
+          "startPointId": "34124731",
+          "endPointId": "357684460",
+          "attributes": {
+            "bayesFactor": 230.69715658350285,
+            "posteriorProbability": 0.9929637447690998
+          }
+        },
+        {
+          "startPointId": "34124731",
+          "endPointId": "1571393667",
+          "attributes": {
+            "bayesFactor": 0.09026560772959542,
+            "posteriorProbability": 0.052327519164537276
+          }
+        },
+        {
+          "startPointId": "840774528",
+          "endPointId": "357684460",
+          "attributes": {
+            "bayesFactor": 0.5448348066859514,
+            "posteriorProbability": 0.24997222530829907
+          }
+        },
+        {
+          "startPointId": "840774528",
+          "endPointId": "1571393667",
+          "attributes": {
+            "bayesFactor": 0.10132381297536719,
+            "posteriorProbability": 0.05836388549420435
+          }
+        },
+        {
+          "startPointId": "357684460",
+          "endPointId": "1571393667",
+          "attributes": {
+            "bayesFactor": 0.43925557354421463,
+            "posteriorProbability": 0.21179128245009815
+          }
+        }
+      ]
+    }
+  ]
+}

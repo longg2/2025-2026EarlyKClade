@@ -1,0 +1,1282 @@
+IQ-TREE version 3.0.1 for Linux x86 64-bit built Jul  9 2025
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    ON44C03637251 (AVX2, FMA3, 31 GB RAM)
+Command: iqtree -s ../CanadianKClade/CanadaOnly.fasta -m MFP -B 10000 -alrt 10000 --prefix CanadaOnly -T auto
+Seed:    214111 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Jan  8 15:31:55 2026
+Kernel:  AVX+FMA - auto-detect threads (20 CPU cores detected)
+
+Reading alignment file ../CanadianKClade/CanadaOnly.fasta ... Fasta format detected
+Reading fasta file: done in 0.122541 secs using 4.092% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0241964 secs using 262.5% CPU
+Alignment has 406 sequences with 1653 columns, 211 distinct patterns
+92 parsimony-informative, 98 singleton sites, 1463 constant sites
+                  Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0557826 secs using 319.2% CPU
+   1  EPI_ISL_20212945    0.00%    passed    100.00%
+   2  EPI_ISL_20212955    0.00%    passed     99.88%
+   3  EPI_ISL_20212992    0.00%    passed    100.00%
+   4  EPI_ISL_20236994    0.00%    passed    100.00%
+   5  EPI_ISL_20244506    0.06%    passed     99.98%
+   6  EPI_ISL_20244507    0.00%    passed     99.96%
+   7  EPI_ISL_20244508    0.06%    passed     99.98%
+   8  EPI_ISL_20244509    0.00%    passed     99.96%
+   9  EPI_ISL_20244510    0.00%    passed     99.96%
+  10  EPI_ISL_20244511    0.06%    passed     99.98%
+  11  EPI_ISL_20244512    0.00%    passed     99.96%
+  12  EPI_ISL_20244513    0.06%    passed     99.90%
+  13  EPI_ISL_20249456    0.00%    passed    100.00%
+  14  EPI_ISL_20249457    0.00%    passed     99.95%
+  15  EPI_ISL_20249459    0.00%    passed    100.00%
+  16  EPI_ISL_20249460    0.00%    passed     99.98%
+  17  EPI_ISL_20249461    0.00%    passed     99.97%
+  18  EPI_ISL_20249462    0.00%    passed    100.00%
+  19  EPI_ISL_20249463    0.00%    passed     99.97%
+  20  EPI_ISL_20249466    0.00%    passed    100.00%
+  21  EPI_ISL_20253218    0.00%    passed     99.97%
+  22  EPI_ISL_20255430    0.00%    passed     99.96%
+  23  EPI_ISL_20255431    0.00%    passed     99.96%
+  24  EPI_ISL_20255434    0.00%    passed     99.96%
+  25  EPI_ISL_20255435    0.00%    passed     99.96%
+  26  EPI_ISL_20255436    0.00%    passed     99.96%
+  27  EPI_ISL_20255437    0.00%    passed     99.96%
+  28  EPI_ISL_20255438    0.00%    passed     99.96%
+  29  EPI_ISL_20255439    0.18%    passed     99.94%
+  30  EPI_ISL_20257572    0.00%    passed    100.00%
+  31  EPI_ISL_20257584    0.00%    passed     99.97%
+  32  EPI_ISL_20257585    0.00%    passed    100.00%
+  33  EPI_ISL_20257586    0.00%    passed     99.77%
+  34  EPI_ISL_20257587    0.00%    passed    100.00%
+  35  EPI_ISL_20257589    0.00%    passed     99.87%
+  36  EPI_ISL_20257590    0.06%    passed    100.00%
+  37  EPI_ISL_20257594    0.00%    passed     99.87%
+  38  EPI_ISL_20258550    0.00%    passed     99.95%
+  39  EPI_ISL_20258552    0.00%    passed    100.00%
+  40  EPI_ISL_20258554    0.00%    passed     99.98%
+  41  EPI_ISL_20258555    0.00%    passed    100.00%
+  42  EPI_ISL_20258556    0.00%    passed    100.00%
+  43  EPI_ISL_20258558    0.00%    passed     99.97%
+  44  EPI_ISL_20258567    0.00%    passed     99.96%
+  45  EPI_ISL_20258571    0.00%    passed     99.95%
+  46  EPI_ISL_20258572    0.00%    passed     99.95%
+  47  EPI_ISL_20258581    0.00%    passed    100.00%
+  48  EPI_ISL_20258582    0.00%    passed     99.95%
+  49  EPI_ISL_20258593    0.00%    passed    100.00%
+  50  EPI_ISL_20258597    0.00%    passed     99.95%
+  51  EPI_ISL_20258599    0.00%    passed     99.95%
+  52  EPI_ISL_20258600    0.00%    passed    100.00%
+  53  EPI_ISL_20258601    0.00%    passed    100.00%
+  54  EPI_ISL_20258603    0.00%    passed    100.00%
+  55  EPI_ISL_20258605    0.00%    passed     99.87%
+  56  EPI_ISL_20258607    0.00%    passed     99.95%
+  57  EPI_ISL_20258610    0.00%    passed    100.00%
+  58  EPI_ISL_20258612    0.00%    passed    100.00%
+  59  EPI_ISL_20258621    0.12%    passed     99.97%
+  60  EPI_ISL_20258623    0.00%    passed     99.95%
+  61  EPI_ISL_20258624    0.00%    passed    100.00%
+  62  EPI_ISL_20258629    0.00%    passed    100.00%
+  63  EPI_ISL_20260282    0.00%    passed    100.00%
+  64  EPI_ISL_20260283    0.00%    passed     99.97%
+  65  EPI_ISL_20260285    0.00%    passed    100.00%
+  66  EPI_ISL_20260286    0.00%    passed     99.97%
+  67  EPI_ISL_20260287    0.00%    passed    100.00%
+  68  EPI_ISL_20260288    0.06%    passed     99.92%
+  69  EPI_ISL_20266557    0.00%    passed    100.00%
+  70  EPI_ISL_20266558    0.00%    passed    100.00%
+  71  EPI_ISL_20266559    0.00%    passed     99.87%
+  72  EPI_ISL_20266566    0.00%    passed     99.97%
+  73  EPI_ISL_20266568    0.00%    passed    100.00%
+  74  EPI_ISL_20266569    0.00%    passed    100.00%
+  75  EPI_ISL_20266573    0.00%    passed     99.83%
+  76  EPI_ISL_20266574    0.00%    passed     99.96%
+  77  EPI_ISL_20266578    0.00%    passed     99.96%
+  78  EPI_ISL_20266581    0.00%    passed    100.00%
+  79  EPI_ISL_20266585    0.00%    passed     99.95%
+  80  EPI_ISL_20266586    0.00%    passed     99.97%
+  81  EPI_ISL_20266591    0.00%    passed     99.98%
+  82  EPI_ISL_20266592    0.06%    passed     99.94%
+  83  EPI_ISL_20267204    0.06%    passed     99.90%
+  84  EPI_ISL_20267205    0.00%    passed     99.96%
+  85  EPI_ISL_20267208    0.06%    passed     99.95%
+  86  EPI_ISL_20267209    0.00%    passed     99.96%
+  87  EPI_ISL_20267210    0.00%    passed     99.83%
+  88  EPI_ISL_20267211    0.00%    passed     99.96%
+  89  EPI_ISL_20267212    0.00%    passed     99.96%
+  90  EPI_ISL_20267213    0.06%    passed     99.98%
+  91  EPI_ISL_20267214    0.00%    passed     99.92%
+  92  EPI_ISL_20267215    0.00%    passed     99.96%
+  93  EPI_ISL_20267216    0.00%    passed    100.00%
+  94  EPI_ISL_20267217    0.06%    passed     99.98%
+  95  EPI_ISL_20267219    0.00%    passed     99.96%
+  96  EPI_ISL_20267221    0.00%    passed    100.00%
+  97  EPI_ISL_20267223    0.06%    passed     99.98%
+  98  EPI_ISL_20267224    0.00%    passed    100.00%
+  99  EPI_ISL_20267227    0.00%    passed     99.96%
+ 100  EPI_ISL_20267228    0.00%    passed     99.96%
+ 101  EPI_ISL_20267229    0.00%    passed     99.96%
+ 102  EPI_ISL_20267230    0.00%    passed     99.96%
+ 103  EPI_ISL_20267231    0.00%    passed     99.96%
+ 104  EPI_ISL_20267232    0.00%    passed     99.96%
+ 105  EPI_ISL_20267233    0.00%    passed     99.96%
+ 106  EPI_ISL_20267234    0.00%    passed     99.96%
+ 107  EPI_ISL_20267235    0.12%    passed     99.95%
+ 108  EPI_ISL_20267236    0.00%    passed    100.00%
+ 109  EPI_ISL_20267237    0.00%    passed     99.96%
+ 110  EPI_ISL_20267238    0.00%    passed    100.00%
+ 111  EPI_ISL_20267239    0.00%    passed    100.00%
+ 112  EPI_ISL_20267240    0.06%    passed     99.98%
+ 113  EPI_ISL_20281590    0.00%    passed     99.77%
+ 114  EPI_ISL_20281592    0.00%    passed    100.00%
+ 115  EPI_ISL_20281595    0.00%    passed    100.00%
+ 116  EPI_ISL_20281596    0.00%    passed     99.77%
+ 117  EPI_ISL_20281597    0.00%    passed    100.00%
+ 118  EPI_ISL_20281599    0.00%    passed     99.90%
+ 119  EPI_ISL_20281600    0.00%    passed     99.77%
+ 120  EPI_ISL_20281603    0.06%    passed     99.83%
+ 121  EPI_ISL_20281604    0.00%    passed    100.00%
+ 122  EPI_ISL_20281611    0.18%    passed     99.99%
+ 123  EPI_ISL_20281613    0.00%    passed     99.90%
+ 124  EPI_ISL_20281614    0.00%    passed     99.99%
+ 125  EPI_ISL_20281615    0.00%    passed    100.00%
+ 126  EPI_ISL_20281617    0.00%    passed     99.87%
+ 127  EPI_ISL_20281618    0.00%    passed    100.00%
+ 128  EPI_ISL_20281621    0.00%    passed    100.00%
+ 129  EPI_ISL_20281624    0.06%    passed     99.83%
+ 130  EPI_ISL_20281627    0.00%    passed    100.00%
+ 131  EPI_ISL_20281628    0.00%    passed     99.90%
+ 132  EPI_ISL_20281629    0.00%    passed    100.00%
+ 133  EPI_ISL_20281633    0.00%    passed    100.00%
+ 134  EPI_ISL_20281634    0.00%    passed     99.97%
+ 135  EPI_ISL_20281636    0.00%    passed    100.00%
+ 136  EPI_ISL_20281637    0.00%    passed     99.79%
+ 137  EPI_ISL_20281639    0.00%    passed    100.00%
+ 138  EPI_ISL_20281642    0.00%    passed    100.00%
+ 139  EPI_ISL_20281644    0.00%    passed     99.77%
+ 140  EPI_ISL_20281649    0.00%    passed     99.96%
+ 141  EPI_ISL_20281651    0.00%    passed    100.00%
+ 142  EPI_ISL_20281652    0.00%    passed     99.87%
+ 143  EPI_ISL_20281654    0.00%    passed     99.95%
+ 144  EPI_ISL_20281655    0.00%    passed     99.96%
+ 145  EPI_ISL_20281657    0.00%    passed     99.97%
+ 146  EPI_ISL_20281659    0.00%    passed    100.00%
+ 147  EPI_ISL_20281661    0.00%    passed    100.00%
+ 148  EPI_ISL_20281662    0.00%    passed    100.00%
+ 149  EPI_ISL_20281664    0.00%    passed    100.00%
+ 150  EPI_ISL_20281665    0.00%    passed     99.91%
+ 151  EPI_ISL_20281668    0.00%    passed     99.97%
+ 152  EPI_ISL_20281763    0.00%    passed     99.95%
+ 153  EPI_ISL_20281784    0.00%    passed     99.95%
+ 154  EPI_ISL_20281809    0.06%    passed     99.95%
+ 155  EPI_ISL_20281820    0.00%    passed    100.00%
+ 156  EPI_ISL_20281863    0.00%    passed    100.00%
+ 157  EPI_ISL_20281896    0.00%    passed    100.00%
+ 158  EPI_ISL_20281961    0.00%    passed     99.96%
+ 159  EPI_ISL_20282022    0.00%    passed     99.97%
+ 160  EPI_ISL_20282028    0.00%    passed     99.83%
+ 161  EPI_ISL_20282032    0.00%    passed     99.97%
+ 162  EPI_ISL_20282034    0.00%    passed     99.96%
+ 163  EPI_ISL_20282035    0.00%    passed    100.00%
+ 164  EPI_ISL_20282054    7.20%    passed     99.82%
+ 165  EPI_ISL_20282056    0.00%    passed     99.97%
+ 166  EPI_ISL_20282058    0.00%    passed     99.96%
+ 167  EPI_ISL_20282074    0.00%    passed     99.88%
+ 168  EPI_ISL_20282075    0.06%    passed     99.97%
+ 169  EPI_ISL_20282082    0.00%    passed     99.83%
+ 170  EPI_ISL_20282089    0.00%    passed     99.99%
+ 171  EPI_ISL_20282091    0.00%    passed     99.86%
+ 172  EPI_ISL_20282094    0.00%    passed     99.99%
+ 173  EPI_ISL_20282106    0.00%    passed     99.93%
+ 174  EPI_ISL_20282110    0.00%    passed     99.95%
+ 175  EPI_ISL_20282111    0.00%    passed     99.96%
+ 176  EPI_ISL_20282116    0.00%    passed     99.98%
+ 177  EPI_ISL_20282124    0.00%    passed    100.00%
+ 178  EPI_ISL_20282126    0.00%    passed    100.00%
+ 179  EPI_ISL_20282127    0.00%    passed     99.91%
+ 180  EPI_ISL_20283194    0.00%    passed     99.96%
+ 181  EPI_ISL_20283195    0.06%    passed     99.75%
+ 182  EPI_ISL_20283196    0.00%    passed     99.91%
+ 183  EPI_ISL_20283197    0.00%    passed    100.00%
+ 184  EPI_ISL_20283199    0.00%    passed     99.92%
+ 185  EPI_ISL_20283200    0.00%    passed     99.92%
+ 186  EPI_ISL_20283201    0.00%    passed     99.92%
+ 187  EPI_ISL_20283202    0.00%    passed     99.96%
+ 188  EPI_ISL_20283204    0.00%    passed     99.83%
+ 189  EPI_ISL_20283205    0.06%    passed     99.98%
+ 190  EPI_ISL_20283206    0.00%    passed    100.00%
+ 191  EPI_ISL_20283207    0.00%    passed     99.96%
+ 192  EPI_ISL_20283209    0.00%    passed     99.89%
+ 193  EPI_ISL_20283211    0.00%    passed     99.96%
+ 194  EPI_ISL_20283212    0.00%    passed    100.00%
+ 195  EPI_ISL_20283213    0.00%    passed    100.00%
+ 196  EPI_ISL_20283214    0.00%    passed     99.96%
+ 197  EPI_ISL_20287733    0.00%    passed    100.00%
+ 198  EPI_ISL_20287737    0.00%    passed     99.96%
+ 199  EPI_ISL_20287738    0.00%    passed     99.96%
+ 200  EPI_ISL_20287741    0.00%    passed     99.96%
+ 201  EPI_ISL_20287742    0.00%    passed     99.96%
+ 202  EPI_ISL_20287743    0.00%    passed     99.83%
+ 203  EPI_ISL_20287744    0.00%    passed     99.96%
+ 204  EPI_ISL_20287745    0.00%    passed     99.96%
+ 205  EPI_ISL_20287746    0.00%    passed     99.96%
+ 206  EPI_ISL_20287747    0.00%    passed     99.96%
+ 207  EPI_ISL_20287748    0.00%    passed     99.96%
+ 208  EPI_ISL_20287749    0.00%    passed     99.96%
+ 209  EPI_ISL_20287750    0.00%    passed     99.96%
+ 210  EPI_ISL_20287752    0.00%    passed     99.96%
+ 211  EPI_ISL_20287758    0.06%    passed     99.95%
+ 212  EPI_ISL_20287759    0.00%    passed     99.96%
+ 213  EPI_ISL_20287760    0.00%    passed     99.96%
+ 214  EPI_ISL_20289536    0.00%    passed    100.00%
+ 215  EPI_ISL_20289538    0.00%    passed     99.96%
+ 216  EPI_ISL_20289540    0.12%    passed     99.89%
+ 217  EPI_ISL_20289542    0.00%    passed     99.96%
+ 218  EPI_ISL_20289544    0.00%    passed     99.96%
+ 219  EPI_ISL_20289546    0.00%    passed     99.96%
+ 220  EPI_ISL_20289552    0.00%    passed     99.96%
+ 221  EPI_ISL_20289554    0.00%    passed     99.96%
+ 222  EPI_ISL_20289556    0.00%    passed     99.97%
+ 223  EPI_ISL_20289568    0.00%    passed    100.00%
+ 224  EPI_ISL_20289572    0.00%    passed     99.95%
+ 225  EPI_ISL_20289575    0.00%    passed     99.96%
+ 226  EPI_ISL_20289579    0.00%    passed     99.95%
+ 227  EPI_ISL_20289583    0.00%    passed     99.87%
+ 228  EPI_ISL_20289596    0.00%    passed     99.87%
+ 229  EPI_ISL_20289598    0.00%    passed     99.90%
+ 230  EPI_ISL_20289600    0.00%    passed     99.90%
+ 231  EPI_ISL_20289601    0.00%    passed     99.91%
+ 232  EPI_ISL_20289603    0.00%    passed     99.92%
+ 233  EPI_ISL_20289607    0.06%    passed     99.92%
+ 234  EPI_ISL_20289609    0.00%    passed     99.99%
+ 235  EPI_ISL_20289611    0.00%    passed     99.77%
+ 236  EPI_ISL_20289613    0.06%    passed     99.90%
+ 237  EPI_ISL_20289615    0.00%    passed     99.97%
+ 238  EPI_ISL_20289617    0.00%    passed     99.97%
+ 239  EPI_ISL_20289619    0.00%    passed    100.00%
+ 240  EPI_ISL_20289621    0.00%    passed    100.00%
+ 241  EPI_ISL_20289623    0.06%    passed    100.00%
+ 242  EPI_ISL_20289627    0.00%    passed    100.00%
+ 243  EPI_ISL_20289638    0.00%    passed    100.00%
+ 244  EPI_ISL_20289640    0.06%    passed     99.92%
+ 245  EPI_ISL_20289646    0.00%    passed    100.00%
+ 246  EPI_ISL_20289648    0.00%    passed     99.78%
+ 247  EPI_ISL_20289656    0.00%    passed    100.00%
+ 248  EPI_ISL_20289658    0.06%    passed     99.92%
+ 249  EPI_ISL_20289660    0.00%    passed     99.89%
+ 250  EPI_ISL_20289662    0.00%    passed     99.97%
+ 251  EPI_ISL_20289664    0.00%    passed     99.96%
+ 252  EPI_ISL_20289667    0.06%    passed     99.98%
+ 253  EPI_ISL_20289669    0.00%    passed    100.00%
+ 254  EPI_ISL_20289671    0.00%    passed    100.00%
+ 255  EPI_ISL_20289675    0.00%    passed    100.00%
+ 256  EPI_ISL_20289683    0.00%    passed    100.00%
+ 257  EPI_ISL_20289684    0.00%    passed     99.87%
+ 258  EPI_ISL_20289687    0.00%    passed     99.95%
+ 259  EPI_ISL_20289688    0.00%    passed     99.87%
+ 260  EPI_ISL_20289689    0.00%    passed     99.96%
+ 261  EPI_ISL_20289691    0.00%    passed    100.00%
+ 262  EPI_ISL_20289693    0.00%    passed     99.97%
+ 263  EPI_ISL_20289695    0.00%    passed    100.00%
+ 264  EPI_ISL_20289717    0.06%    passed    100.00%
+ 265  EPI_ISL_20289719    0.00%    passed     99.96%
+ 266  EPI_ISL_20289721    0.06%    passed    100.00%
+ 267  EPI_ISL_20289723    0.00%    passed    100.00%
+ 268  EPI_ISL_20289726    0.00%    passed    100.00%
+ 269  EPI_ISL_20289728    0.00%    passed    100.00%
+ 270  EPI_ISL_20289730    0.12%    passed     99.99%
+ 271  EPI_ISL_20289732    0.06%    passed     99.97%
+ 272  EPI_ISL_20289735    0.00%    passed     99.95%
+ 273  EPI_ISL_20289737    0.00%    passed     99.96%
+ 274  EPI_ISL_20289740    0.00%    passed    100.00%
+ 275  EPI_ISL_20289743    0.00%    passed    100.00%
+ 276  EPI_ISL_20289745    0.00%    passed    100.00%
+ 277  EPI_ISL_20289747    0.00%    passed    100.00%
+ 278  EPI_ISL_20289750    0.00%    passed    100.00%
+ 279  EPI_ISL_20289754    0.06%    passed     99.98%
+ 280  EPI_ISL_20289756    0.06%    passed     99.99%
+ 281  EPI_ISL_20292429    0.00%    passed     99.96%
+ 282  EPI_ISL_20292432    0.00%    passed     99.96%
+ 283  EPI_ISL_20292433    0.00%    passed     99.96%
+ 284  EPI_ISL_20292434    0.00%    passed    100.00%
+ 285  EPI_ISL_20292435    0.06%    passed     99.92%
+ 286  EPI_ISL_20292436    0.00%    passed    100.00%
+ 287  EPI_ISL_20292437    0.00%    passed    100.00%
+ 288  EPI_ISL_20292438    0.06%    passed     99.98%
+ 289  EPI_ISL_20292440    0.06%    passed    100.00%
+ 290  EPI_ISL_20292441    0.00%    passed     99.95%
+ 291  EPI_ISL_20292442    0.06%    passed     99.98%
+ 292  EPI_ISL_20292443    0.00%    passed     99.87%
+ 293  EPI_ISL_20292444    0.00%    passed     99.91%
+ 294  EPI_ISL_20292445    0.06%    passed     99.99%
+ 295  EPI_ISL_20292446    0.00%    passed    100.00%
+ 296  EPI_ISL_20292447    0.00%    passed     99.97%
+ 297  EPI_ISL_20292448    0.00%    passed    100.00%
+ 298  EPI_ISL_20292449    0.00%    passed     99.95%
+ 299  EPI_ISL_20292451    0.00%    passed    100.00%
+ 300  EPI_ISL_20292452    0.00%    passed     99.97%
+ 301  EPI_ISL_20292453    0.00%    passed    100.00%
+ 302  EPI_ISL_20292454    0.00%    passed     99.96%
+ 303  EPI_ISL_20292456    0.12%    passed     99.97%
+ 304  EPI_ISL_20292457    0.00%    passed     99.96%
+ 305  EPI_ISL_20292459    0.00%    passed     99.96%
+ 306  EPI_ISL_20292461    0.00%    passed    100.00%
+ 307  EPI_ISL_20292462    0.00%    passed     99.96%
+ 308  EPI_ISL_20292464    0.00%    passed     99.96%
+ 309  EPI_ISL_20292465    0.00%    passed     99.96%
+ 310  EPI_ISL_20292466    0.00%    passed     99.96%
+ 311  EPI_ISL_20292467    0.00%    passed     99.96%
+ 312  EPI_ISL_20292469    0.00%    passed     99.95%
+ 313  EPI_ISL_20292470    0.00%    passed     99.96%
+ 314  EPI_ISL_20292472    0.00%    passed     99.79%
+ 315  EPI_ISL_20292473    0.00%    passed    100.00%
+ 316  EPI_ISL_20292476    0.00%    passed     99.95%
+ 317  EPI_ISL_20292488    0.00%    passed     99.97%
+ 318  EPI_ISL_20292489    0.06%    passed     99.97%
+ 319  EPI_ISL_20295241    0.00%    passed     99.96%
+ 320  EPI_ISL_20295243    0.00%    passed    100.00%
+ 321  EPI_ISL_20295244    0.00%    passed    100.00%
+ 322  EPI_ISL_20295246    0.00%    passed    100.00%
+ 323  EPI_ISL_20295248    0.00%    passed     99.95%
+ 324  EPI_ISL_20295249    0.06%    passed     99.99%
+ 325  EPI_ISL_20295250    0.00%    passed    100.00%
+ 326  EPI_ISL_20295251    0.00%    passed    100.00%
+ 327  EPI_ISL_20295252    0.00%    passed     99.95%
+ 328  EPI_ISL_20295253    0.00%    passed     99.95%
+ 329  EPI_ISL_20295256    0.00%    passed    100.00%
+ 330  EPI_ISL_20295257    0.00%    passed     99.95%
+ 331  EPI_ISL_20295258    0.00%    passed     99.95%
+ 332  EPI_ISL_20295259    0.00%    passed     99.95%
+ 333  EPI_ISL_20295260    0.00%    passed     99.96%
+ 334  EPI_ISL_20295262    0.00%    passed     99.95%
+ 335  EPI_ISL_20295300    0.00%    passed    100.00%
+ 336  EPI_ISL_20295301    0.00%    passed     99.97%
+ 337  EPI_ISL_20295302    0.00%    passed    100.00%
+ 338  EPI_ISL_20295304    0.00%    passed    100.00%
+ 339  EPI_ISL_20295306    0.00%    passed    100.00%
+ 340  EPI_ISL_20295307    0.00%    passed    100.00%
+ 341  EPI_ISL_20295308    0.00%    passed     99.97%
+ 342  EPI_ISL_20295309    0.06%    passed     99.95%
+ 343  EPI_ISL_20295313    0.00%    passed     99.95%
+ 344  EPI_ISL_20295314    0.00%    passed     99.95%
+ 345  EPI_ISL_20295315    0.06%    passed     99.90%
+ 346  EPI_ISL_20295317    0.00%    passed    100.00%
+ 347  EPI_ISL_20295318    0.00%    passed     99.96%
+ 348  EPI_ISL_20295319    0.00%    passed     99.95%
+ 349  EPI_ISL_20295320    0.00%    passed    100.00%
+ 350  EPI_ISL_20295321    0.00%    passed     99.95%
+ 351  EPI_ISL_20295323    0.00%    passed    100.00%
+ 352  EPI_ISL_20295325    0.00%    passed     99.96%
+ 353  EPI_ISL_20295326    0.00%    passed    100.00%
+ 354  EPI_ISL_20295327    0.00%    passed     99.83%
+ 355  EPI_ISL_20295329    0.00%    passed     99.95%
+ 356  EPI_ISL_20295330    0.00%    passed    100.00%
+ 357  EPI_ISL_20295332    0.00%    passed     99.95%
+ 358  EPI_ISL_20295333    0.00%    passed     99.83%
+ 359  EPI_ISL_20295365    0.00%    passed     99.97%
+ 360  EPI_ISL_20295369    0.00%    passed    100.00%
+ 361  EPI_ISL_20295373    0.00%    passed     99.95%
+ 362  EPI_ISL_20295375    0.00%    passed     99.95%
+ 363  EPI_ISL_20295378    0.00%    passed     99.68%
+ 364  EPI_ISL_20295379    0.00%    passed    100.00%
+ 365  EPI_ISL_20295380    0.00%    passed     99.79%
+ 366  EPI_ISL_20297760    0.00%    passed     99.96%
+ 367  EPI_ISL_20297761    0.00%    passed     99.96%
+ 368  EPI_ISL_20297762    0.00%    passed     99.97%
+ 369  EPI_ISL_20297763    0.00%    passed     99.92%
+ 370  EPI_ISL_20297764    0.00%    passed     99.97%
+ 371  EPI_ISL_20297765    0.00%    passed     99.95%
+ 372  EPI_ISL_20297766    0.00%    passed     99.90%
+ 373  EPI_ISL_20297767    0.00%    passed     99.97%
+ 374  EPI_ISL_20297768    0.00%    passed     99.96%
+ 375  EPI_ISL_20297771    0.00%    passed     99.95%
+ 376  EPI_ISL_20297772    0.00%    passed    100.00%
+ 377  EPI_ISL_20297773    0.00%    passed    100.00%
+ 378  EPI_ISL_20297774    0.00%    passed     99.96%
+ 379  EPI_ISL_20297775    0.00%    passed     99.96%
+ 380  EPI_ISL_20297777    0.00%    passed     99.96%
+ 381  EPI_ISL_20297778    0.00%    passed     99.95%
+ 382  EPI_ISL_20297779    0.00%    passed     99.98%
+ 383  EPI_ISL_20297780    0.00%    passed     99.96%
+ 384  EPI_ISL_20297781    0.00%    passed     99.87%
+ 385  EPI_ISL_20297782    0.00%    passed     99.96%
+ 386  EPI_ISL_20297783    0.00%    passed     99.97%
+ 387  EPI_ISL_20297784    0.00%    passed     99.98%
+ 388  EPI_ISL_20297786    0.00%    passed     99.90%
+ 389  EPI_ISL_20297787    0.00%    passed     99.97%
+ 390  EPI_ISL_20297790    0.00%    passed    100.00%
+ 391  EPI_ISL_20297791    0.00%    passed     99.95%
+ 392  EPI_ISL_20297792    0.00%    passed     99.92%
+ 393  EPI_ISL_20297794    0.00%    passed    100.00%
+ 394  EPI_ISL_20297795    0.00%    passed     99.83%
+ 395  EPI_ISL_20297796    0.00%    passed     99.98%
+ 396  EPI_ISL_20297797    0.00%    passed     99.97%
+ 397  EPI_ISL_20297798    0.00%    passed     99.96%
+ 398  EPI_ISL_20297799    0.00%    passed     99.97%
+ 399  EPI_ISL_20297800    0.00%    passed     99.96%
+ 400  EPI_ISL_20297804    0.00%    passed     99.96%
+ 401  EPI_ISL_20297805    0.00%    passed     99.96%
+ 402  EPI_ISL_20297807    0.00%    passed    100.00%
+ 403  EPI_ISL_20297808    0.00%    passed     99.96%
+ 404  EPI_ISL_20297809    0.06%    passed     99.98%
+ 405  EPI_ISL_20297811    0.00%    passed     99.96%
+ 406  EPI_ISL_20297814    0.00%    passed     99.96%
+****  TOTAL               0.03%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: EPI_ISL_20249462 is identical to EPI_ISL_20236994 but kept for subsequent analysis
+NOTE: EPI_ISL_20267240 is identical to EPI_ISL_20244506 but kept for subsequent analysis
+NOTE: EPI_ISL_20244509 is identical to EPI_ISL_20244507 but kept for subsequent analysis
+NOTE: EPI_ISL_20267213 is identical to EPI_ISL_20244511 but kept for subsequent analysis
+NOTE: EPI_ISL_20249459 is identical to EPI_ISL_20249456 but kept for subsequent analysis
+NOTE: EPI_ISL_20258571 is identical to EPI_ISL_20249457 but kept for subsequent analysis
+NOTE: EPI_ISL_20249463 is identical to EPI_ISL_20249461 but kept for subsequent analysis
+NOTE: EPI_ISL_20292433 is identical to EPI_ISL_20255436 but kept for subsequent analysis
+NOTE: EPI_ISL_20281590 is identical to EPI_ISL_20257586 but kept for subsequent analysis
+NOTE: EPI_ISL_20257594 is identical to EPI_ISL_20257589 but kept for subsequent analysis
+NOTE: EPI_ISL_20258572 is identical to EPI_ISL_20258550 but kept for subsequent analysis
+NOTE: EPI_ISL_20258600 is identical to EPI_ISL_20258556 but kept for subsequent analysis
+NOTE: EPI_ISL_20258629 is identical to EPI_ISL_20258581 but kept for subsequent analysis
+NOTE: EPI_ISL_20289596 is identical to EPI_ISL_20258605 but kept for subsequent analysis
+NOTE: EPI_ISL_20289621 is identical to EPI_ISL_20266568 but kept for subsequent analysis
+NOTE: EPI_ISL_20287745 is identical to EPI_ISL_20266578 but kept for subsequent analysis
+NOTE: EPI_ISL_20289745 is identical to EPI_ISL_20266581 but kept for subsequent analysis
+NOTE: EPI_ISL_20282028 is identical to EPI_ISL_20267210 but kept for subsequent analysis
+NOTE: EPI_ISL_20267221 is identical to EPI_ISL_20267216 but kept for subsequent analysis
+NOTE: EPI_ISL_20281613 is identical to EPI_ISL_20281599 but kept for subsequent analysis
+NOTE: EPI_ISL_20295365 is identical to EPI_ISL_20281657 but kept for subsequent analysis
+NOTE: EPI_ISL_20295252 is identical to EPI_ISL_20281763 but kept for subsequent analysis
+NOTE: EPI_ISL_20295313 is identical to EPI_ISL_20281784 but kept for subsequent analysis
+NOTE: EPI_ISL_20295256 is identical to EPI_ISL_20281820 but kept for subsequent analysis
+NOTE: EPI_ISL_20295320 is identical to EPI_ISL_20283213 but kept for subsequent analysis
+NOTE: EPI_ISL_20287748 is identical to EPI_ISL_20287747 but kept for subsequent analysis
+NOTE: EPI_ISL_20289658 is identical to EPI_ISL_20289640 but kept for subsequent analysis
+NOTE: EPI_ISL_20297773 is identical to EPI_ISL_20292451 but kept for subsequent analysis
+NOTE: EPI_ISL_20295306 is identical to EPI_ISL_20295302 but kept for subsequent analysis
+NOTE: EPI_ISL_20297764 is identical to EPI_ISL_20297762 but kept for subsequent analysis
+NOTE: EPI_ISL_20297786 is identical to EPI_ISL_20297766 but kept for subsequent analysis
+NOTE: EPI_ISL_20297783 is identical to EPI_ISL_20297767 but kept for subsequent analysis
+NOTE: EPI_ISL_20297775 is identical to EPI_ISL_20297768 but kept for subsequent analysis
+NOTE: EPI_ISL_20297784 is identical to EPI_ISL_20297779 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.0680483 secs using 275.6% CPU
+Identifying sites to remove: done in 0.00595067 secs using 223.1% CPU
+NOTE: 172 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: EPI_ISL_20257572 (identical to EPI_ISL_20236994) is ignored but added at the end
+NOTE: EPI_ISL_20266558 (identical to EPI_ISL_20236994) is ignored but added at the end
+NOTE: EPI_ISL_20281863 (identical to EPI_ISL_20236994) is ignored but added at the end
+NOTE: EPI_ISL_20289536 (identical to EPI_ISL_20236994) is ignored but added at the end
+NOTE: EPI_ISL_20289627 (identical to EPI_ISL_20236994) is ignored but added at the end
+NOTE: EPI_ISL_20289638 (identical to EPI_ISL_20236994) is ignored but added at the end
+NOTE: EPI_ISL_20289723 (identical to EPI_ISL_20236994) is ignored but added at the end
+NOTE: EPI_ISL_20289726 (identical to EPI_ISL_20236994) is ignored but added at the end
+NOTE: EPI_ISL_20292453 (identical to EPI_ISL_20236994) is ignored but added at the end
+NOTE: EPI_ISL_20295246 (identical to EPI_ISL_20236994) is ignored but added at the end
+NOTE: EPI_ISL_20295300 (identical to EPI_ISL_20236994) is ignored but added at the end
+NOTE: EPI_ISL_20295307 (identical to EPI_ISL_20236994) is ignored but added at the end
+NOTE: EPI_ISL_20283205 (identical to EPI_ISL_20244506) is ignored but added at the end
+NOTE: EPI_ISL_20244510 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20244512 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20255430 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20255431 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20255434 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20255435 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20255437 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20255438 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20258567 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20266574 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20267205 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20267209 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20267215 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20267219 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20267227 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20267228 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20267229 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20267230 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20267231 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20267232 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20267233 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20267234 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20267237 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20281961 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20283202 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20283207 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20283211 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20283214 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20287737 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20287738 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20287741 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20287742 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20287744 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20287752 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20287759 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20287760 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20289538 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20289542 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20289544 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20289546 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20289552 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20289554 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20292429 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20292432 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20292457 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20292459 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20292462 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20292465 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20292467 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20295260 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20295318 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20297760 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20297761 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20297774 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20297777 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20297780 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20297782 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20297798 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20297800 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20297804 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20297805 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20297814 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20249466 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20257585 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20257587 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20258552 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20258555 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20258593 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20258601 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20258603 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20258610 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20258612 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20258624 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20260282 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20260285 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20266557 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20266569 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281592 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281604 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281615 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281618 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281621 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281627 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281629 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281636 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281639 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281642 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281651 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281661 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281662 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281664 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281896 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20289619 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20289646 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20289656 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20289683 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20289743 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20292434 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20292437 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20295244 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20295251 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20297772 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20258582 (identical to EPI_ISL_20249457) is ignored but added at the end
+NOTE: EPI_ISL_20258623 (identical to EPI_ISL_20249457) is ignored but added at the end
+NOTE: EPI_ISL_20266585 (identical to EPI_ISL_20249457) is ignored but added at the end
+NOTE: EPI_ISL_20281654 (identical to EPI_ISL_20249457) is ignored but added at the end
+NOTE: EPI_ISL_20289572 (identical to EPI_ISL_20249457) is ignored but added at the end
+NOTE: EPI_ISL_20289579 (identical to EPI_ISL_20249457) is ignored but added at the end
+NOTE: EPI_ISL_20289687 (identical to EPI_ISL_20249457) is ignored but added at the end
+NOTE: EPI_ISL_20292469 (identical to EPI_ISL_20249457) is ignored but added at the end
+NOTE: EPI_ISL_20292476 (identical to EPI_ISL_20249457) is ignored but added at the end
+NOTE: EPI_ISL_20253218 (identical to EPI_ISL_20249461) is ignored but added at the end
+NOTE: EPI_ISL_20257584 (identical to EPI_ISL_20249461) is ignored but added at the end
+NOTE: EPI_ISL_20260283 (identical to EPI_ISL_20249461) is ignored but added at the end
+NOTE: EPI_ISL_20260286 (identical to EPI_ISL_20249461) is ignored but added at the end
+NOTE: EPI_ISL_20281596 (identical to EPI_ISL_20257586) is ignored but added at the end
+NOTE: EPI_ISL_20281600 (identical to EPI_ISL_20257586) is ignored but added at the end
+NOTE: EPI_ISL_20281617 (identical to EPI_ISL_20257589) is ignored but added at the end
+NOTE: EPI_ISL_20281652 (identical to EPI_ISL_20257589) is ignored but added at the end
+NOTE: EPI_ISL_20289583 (identical to EPI_ISL_20257589) is ignored but added at the end
+NOTE: EPI_ISL_20289684 (identical to EPI_ISL_20257589) is ignored but added at the end
+NOTE: EPI_ISL_20289688 (identical to EPI_ISL_20257589) is ignored but added at the end
+NOTE: EPI_ISL_20258597 (identical to EPI_ISL_20258550) is ignored but added at the end
+NOTE: EPI_ISL_20258599 (identical to EPI_ISL_20258550) is ignored but added at the end
+NOTE: EPI_ISL_20289695 (identical to EPI_ISL_20258556) is ignored but added at the end
+NOTE: EPI_ISL_20287750 (identical to EPI_ISL_20266578) is ignored but added at the end
+NOTE: EPI_ISL_20292464 (identical to EPI_ISL_20266578) is ignored but added at the end
+NOTE: EPI_ISL_20295327 (identical to EPI_ISL_20267210) is ignored but added at the end
+NOTE: EPI_ISL_20267224 (identical to EPI_ISL_20267216) is ignored but added at the end
+NOTE: EPI_ISL_20267236 (identical to EPI_ISL_20267216) is ignored but added at the end
+NOTE: EPI_ISL_20267238 (identical to EPI_ISL_20267216) is ignored but added at the end
+NOTE: EPI_ISL_20267239 (identical to EPI_ISL_20267216) is ignored but added at the end
+NOTE: EPI_ISL_20283197 (identical to EPI_ISL_20267216) is ignored but added at the end
+NOTE: EPI_ISL_20283206 (identical to EPI_ISL_20267216) is ignored but added at the end
+NOTE: EPI_ISL_20283212 (identical to EPI_ISL_20267216) is ignored but added at the end
+NOTE: EPI_ISL_20292461 (identical to EPI_ISL_20267216) is ignored but added at the end
+NOTE: EPI_ISL_20297790 (identical to EPI_ISL_20267216) is ignored but added at the end
+NOTE: EPI_ISL_20297807 (identical to EPI_ISL_20267216) is ignored but added at the end
+NOTE: EPI_ISL_20295253 (identical to EPI_ISL_20281763) is ignored but added at the end
+NOTE: EPI_ISL_20295257 (identical to EPI_ISL_20281763) is ignored but added at the end
+NOTE: EPI_ISL_20295258 (identical to EPI_ISL_20281763) is ignored but added at the end
+NOTE: EPI_ISL_20295259 (identical to EPI_ISL_20281763) is ignored but added at the end
+NOTE: EPI_ISL_20295262 (identical to EPI_ISL_20281763) is ignored but added at the end
+NOTE: EPI_ISL_20295319 (identical to EPI_ISL_20281763) is ignored but added at the end
+NOTE: EPI_ISL_20295329 (identical to EPI_ISL_20281763) is ignored but added at the end
+NOTE: EPI_ISL_20295373 (identical to EPI_ISL_20281763) is ignored but added at the end
+NOTE: EPI_ISL_20297771 (identical to EPI_ISL_20281763) is ignored but added at the end
+NOTE: EPI_ISL_20297778 (identical to EPI_ISL_20281763) is ignored but added at the end
+NOTE: EPI_ISL_20297791 (identical to EPI_ISL_20281763) is ignored but added at the end
+NOTE: EPI_ISL_20295321 (identical to EPI_ISL_20281784) is ignored but added at the end
+NOTE: EPI_ISL_20295375 (identical to EPI_ISL_20281784) is ignored but added at the end
+NOTE: EPI_ISL_20295323 (identical to EPI_ISL_20281820) is ignored but added at the end
+NOTE: EPI_ISL_20295379 (identical to EPI_ISL_20283213) is ignored but added at the end
+NOTE: EPI_ISL_20287749 (identical to EPI_ISL_20287747) is ignored but added at the end
+NOTE: EPI_ISL_20297808 (identical to EPI_ISL_20287747) is ignored but added at the end
+NOTE: EPI_ISL_20297811 (identical to EPI_ISL_20287747) is ignored but added at the end
+NOTE: EPI_ISL_20297799 (identical to EPI_ISL_20297762) is ignored but added at the end
+NOTE: EPI_ISL_20297787 (identical to EPI_ISL_20297767) is ignored but added at the end
+NOTE: EPI_ISL_20297797 (identical to EPI_ISL_20297767) is ignored but added at the end
+Alignment was printed to CanadaOnly.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to CanadaOnly.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.025 seconds
+Measuring multi-threading efficiency up to 20 CPU cores
+Increase to 10 rounds for branch lengths
+254 trees examined
+Threads: 1 / Time: 20.088 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -7076
+Threads: 2 / Time: 23.345 sec / Speedup: 0.860 / Efficiency: 43% / LogL: -7076
+Determining AUTO threadcount: done in 43.436 secs using 151.9% CPU
+BEST NUMBER OF THREADS: 1
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 0.108935 secs using 99.48% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -4218.001
+Optimal log-likelihood: -4218.000
+Rate parameters:  A-C: 2.81898  A-G: 15.13481  A-T: 0.94813  C-G: 0.18432  C-T: 13.85403  G-T: 1.00000
+Base frequencies:  A: 0.346  C: 0.192  G: 0.230  T: 0.232
+Proportion of invariable sites: 0.443
+Gamma shape alpha: 0.914
+Parameters optimization took 1 rounds (0.067 sec)
+Time for fast ML tree search: 0.755 seconds
+
+NOTE: ModelFinder requires 24 MB RAM!
+ModelFinder will test up to 968 DNA models (sample size: 1653 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            4446.338     465 9822.676     10187.781    12338.487
+  2  JC+I          4419.043     466 9770.086     10137.071    12291.308
+  3  JC+G4         4418.013     466 9768.026     10135.011    12289.248
+  4  JC+I+G4       4416.669     467 9767.338     10136.209    12293.971
+  5  JC+R2         4419.039     467 9772.078     10140.949    12298.710
+  6  JC+R3         4416.898     469 9771.795     10144.458    12309.248
+ 14  JC+I+R2       4418.876     468 9773.752     10144.515    12305.794
+ 15  JC+I+R3       4417.323     470 9774.647     10149.215    12317.510
+ 24  JC+I          4419.043     466 9770.086     10137.071    12291.308
+ 25  JC+G4         4418.013     466 9768.026     10135.011    12289.248
+ 26  JC+I+G4       4416.669     467 9767.338     10136.209    12293.971
+ 27  JC+R2         4419.039     467 9772.078     10140.949    12298.710
+ 46  F81+I         4418.944     466 9769.889     10136.874    12291.111
+ 47  F81+G4        4417.920     466 9767.840     10134.825    12289.062
+ 48  F81+I+G4      4416.574     467 9767.149     10136.019    12293.781
+ 49  F81+R2        4418.978     467 9771.956     10140.827    12298.588
+ 68  F81+F+I       4361.696     469 9661.392     10034.055    12198.845
+ 69  F81+F+G4      4360.610     469 9659.220     10031.882    12196.672
+ 70  F81+F+I+G4    4359.319     470 9658.638     10033.207    12201.502
+ 71  F81+F+R2      4361.596     470 9663.193     10037.761    12206.056
+ 90  K2P+I         4327.570     467 9589.139     9958.010     12115.771
+ 91  K2P+G4        4326.560     467 9587.121     9955.992     12113.753
+ 92  K2P+I+G4      4325.199     468 9586.398     9957.161     12118.440
+ 93  K2P+R2        4309.799     468 9555.597     9926.361     12087.640
+112  K2P+I         4327.570     467 9589.139     9958.010     12115.771
+113  K2P+G4        4326.560     467 9587.121     9955.992     12113.753
+114  K2P+I+G4      4325.199     468 9586.398     9957.161     12118.440
+115  K2P+R2        4309.799     468 9555.597     9926.361     12087.640
+134  HKY+I         4327.469     467 9588.937     9957.808     12115.570
+135  HKY+G4        4326.454     467 9586.908     9955.779     12113.540
+136  HKY+I+G4      4325.095     468 9586.190     9956.953     12118.232
+137  HKY+R2        4277.804     468 9491.609     9862.372     12023.651
+156  HKY+F+I       4274.479     470 9488.959     9863.527     12031.822
+157  HKY+F+G4      4273.269     470 9486.537     9861.106     12029.400
+158  HKY+F+I+G4    4272.138     471 9486.275     9862.756     12034.549
+159  HKY+F+R2      4257.049     471 9456.098     9832.579     12004.372
+178  TNe+I         4280.755     468 9497.510     9868.274     12029.552
+179  TNe+G4        4279.709     468 9495.417     9866.181     12027.460
+180  TNe+I+G4      4278.374     469 9494.748     9867.410     12032.200
+181  TNe+R2        4276.493     469 9490.986     9863.649     12028.439
+200  TNe+I         4280.755     468 9497.510     9868.274     12029.552
+201  TNe+G4        4279.709     468 9495.417     9866.181     12027.460
+202  TNe+I+G4      4278.374     469 9494.748     9867.410     12032.200
+203  TNe+R2        4276.493     469 9490.986     9863.649     12028.439
+222  TN+I          4280.731     468 9497.463     9868.226     12029.505
+223  TN+G4         4279.701     468 9495.401     9866.165     12027.444
+224  TN+I+G4       4278.366     469 9494.733     9867.396     12032.186
+225  TN+R2         4276.438     469 9490.877     9863.540     12028.330
+244  TN+F+I        4274.447     471 9490.895     9867.376     12039.168
+245  TN+F+G4       4273.257     471 9488.514     9864.995     12036.788
+246  TN+F+I+G4     4272.114     472 9488.228     9866.628     12041.912
+247  TN+F+R2       4241.774     472 9427.547     9805.947     11981.231
+266  K3P+I         4278.766     468 9493.532     9864.296     12025.575
+267  K3P+G4        4277.750     468 9491.500     9862.263     12023.542
+268  K3P+I+G4      4276.398     469 9490.796     9863.459     12028.249
+269  K3P+R2        4273.100     469 9484.201     9856.863     12021.653
+288  K3P+I         4278.766     468 9493.532     9864.296     12025.575
+289  K3P+G4        4277.750     468 9491.500     9862.263     12023.542
+290  K3P+I+G4      4276.398     469 9490.796     9863.459     12028.249
+291  K3P+R2        4273.100     469 9484.201     9856.863     12021.653
+310  K3Pu+I        4278.764     468 9493.529     9864.292     12025.571
+311  K3Pu+G4       4277.743     468 9491.485     9862.249     12023.527
+312  K3Pu+I+G4     4276.393     469 9490.787     9863.450     12028.240
+313  K3Pu+R2       4273.100     469 9484.201     9856.863     12021.653
+332  K3Pu+F+I      4224.854     471 9391.708     9768.189     11939.982
+333  K3Pu+F+G4     4223.649     471 9389.298     9765.779     11937.572
+334  K3Pu+F+I+G4   4222.524     472 9389.048     9767.448     11942.732
+335  K3Pu+F+R2     4219.611     472 9383.222     9761.622     11936.906
+354  TPM2+I        4277.507     468 9491.015     9861.778     12023.057
+355  TPM2+G4       4276.551     468 9489.102     9859.865     12021.144
+356  TPM2+I+G4     4275.092     469 9488.185     9860.848     12025.638
+357  TPM2+R2       4271.629     469 9481.257     9853.920     12018.710
+376  TPM2+I        4277.507     468 9491.015     9861.778     12023.057
+377  TPM2+G4       4276.551     468 9489.102     9859.865     12021.144
+378  TPM2+I+G4     4275.092     469 9488.185     9860.848     12025.638
+379  TPM2+R2       4271.629     469 9481.257     9853.920     12018.710
+398  TPM2u+I       4277.501     468 9491.002     9861.766     12023.045
+399  TPM2u+G4      4276.537     468 9489.075     9859.838     12021.117
+400  TPM2u+I+G4    4275.090     469 9488.180     9860.843     12025.633
+401  TPM2u+R2      4271.628     469 9481.257     9853.919     12018.709
+420  TPM2u+F+I     4225.856     471 9393.713     9770.193     11941.986
+421  TPM2u+F+G4    4224.704     471 9391.409     9767.890     11939.682
+422  TPM2u+F+I+G4  4223.535     472 9391.070     9769.470     11944.754
+423  TPM2u+F+R2    4220.572     472 9385.144     9763.544     11938.828
+442  TPM3+I        4282.582     468 9501.165     9871.928     12033.207
+443  TPM3+G4       4281.544     468 9499.087     9869.851     12031.130
+444  TPM3+I+G4     4280.214     469 9498.429     9871.091     12035.881
+445  TPM3+R2       4276.933     469 9491.865     9864.528     12029.318
+464  TPM3+I        4282.582     468 9501.165     9871.928     12033.207
+465  TPM3+G4       4281.544     468 9499.087     9869.851     12031.130
+466  TPM3+I+G4     4280.214     469 9498.429     9871.091     12035.881
+467  TPM3+R2       4276.933     469 9491.865     9864.528     12029.318
+486  TPM3u+I       4282.577     468 9501.154     9871.917     12033.196
+487  TPM3u+G4      4281.534     468 9499.067     9869.831     12031.109
+488  TPM3u+I+G4    4280.208     469 9498.417     9871.079     12035.869
+489  TPM3u+R2      4276.933     469 9491.865     9864.528     12029.318
+508  TPM3u+F+I     4228.292     471 9398.585     9775.066     11946.858
+509  TPM3u+F+G4    4227.078     471 9396.155     9772.636     11944.429
+510  TPM3u+F+I+G4  4225.968     472 9395.935     9774.335     11949.619
+511  TPM3u+F+R2    4223.068     472 9390.136     9768.536     11943.820
+530  TIMe+I        4276.053     469 9490.106     9862.769     12027.559
+531  TIMe+G4       4275.009     469 9488.017     9860.680     12025.470
+532  TIMe+I+G4     4273.677     470 9487.354     9861.923     12030.217
+533  TIMe+R2       4270.546     470 9481.092     9855.661     12023.955
+552  TIMe+I        4276.053     469 9490.106     9862.769     12027.559
+553  TIMe+G4       4275.009     469 9488.017     9860.680     12025.470
+554  TIMe+I+G4     4273.677     470 9487.354     9861.923     12030.217
+555  TIMe+R2       4270.546     470 9481.092     9855.661     12023.955
+574  TIM+I         4276.040     469 9490.080     9862.743     12027.533
+575  TIM+G4        4275.008     469 9488.015     9860.678     12025.468
+576  TIM+I+G4      4273.675     470 9487.350     9861.919     12030.213
+577  TIM+R2        4270.545     470 9481.089     9855.658     12023.952
+596  TIM+F+I       4224.731     472 9393.461     9771.861     11947.145
+597  TIM+F+G4      4223.545     472 9391.089     9769.489     11944.773
+598  TIM+F+I+G4    4222.403     473 9390.806     9771.132     11949.900
+599  TIM+F+R2      4219.493     473 9384.986     9765.312     11944.081
+618  TIM2e+I       4274.718     469 9487.436     9860.099     12024.889
+619  TIM2e+G4      4273.735     469 9485.469     9858.132     12022.922
+620  TIM2e+I+G4    4272.306     470 9484.611     9859.180     12027.474
+621  TIM2e+R2      4269.068     470 9478.137     9852.705     12021.000
+640  TIM2e+I       4274.718     469 9487.436     9860.099     12024.889
+641  TIM2e+G4      4273.735     469 9485.469     9858.132     12022.922
+642  TIM2e+I+G4    4272.306     470 9484.611     9859.180     12027.474
+643  TIM2e+R2      4269.068     470 9478.137     9852.705     12021.000
+662  TIM2+I        4274.690     469 9487.380     9860.042     12024.832
+663  TIM2+G4       4273.723     469 9485.446     9858.109     12022.899
+664  TIM2+I+G4     4272.297     470 9484.593     9859.162     12027.456
+665  TIM2+R2       4269.066     470 9478.133     9852.701     12020.996
+684  TIM2+F+I      4225.756     472 9395.511     9773.911     11949.195
+685  TIM2+F+G4     4224.622     472 9393.243     9771.643     11946.927
+686  TIM2+F+I+G4   4223.434     473 9392.868     9773.194     11951.962
+687  TIM2+F+R2     4220.464     473 9386.927     9767.253     11946.022
+706  TIM3e+I       4279.849     469 9497.697     9870.360     12035.150
+707  TIM3e+G4      4278.785     469 9495.569     9868.232     12033.022
+708  TIM3e+I+G4    4277.485     470 9494.969     9869.538     12037.832
+709  TIM3e+R2      4274.395     470 9488.790     9863.358     12031.653
+728  TIM3e+I       4279.849     469 9497.697     9870.360     12035.150
+729  TIM3e+G4      4278.785     469 9495.569     9868.232     12033.022
+730  TIM3e+I+G4    4277.485     470 9494.969     9869.538     12037.832
+731  TIM3e+R2      4274.395     470 9488.790     9863.358     12031.653
+750  TIM3+I        4279.829     469 9497.658     9870.321     12035.111
+751  TIM3+G4       4278.780     469 9495.559     9868.222     12033.012
+752  TIM3+I+G4     4277.477     470 9494.955     9869.523     12037.818
+753  TIM3+R2       4274.393     470 9488.785     9863.354     12031.649
+772  TIM3+F+I      4228.167     472 9400.334     9778.734     11954.018
+773  TIM3+F+G4     4226.971     472 9397.942     9776.342     11951.626
+774  TIM3+F+I+G4   4225.847     473 9397.694     9778.019     11956.788
+775  TIM3+F+R2     4222.958     473 9391.916     9772.241     11951.010
+794  TVMe+I        4272.540     470 9485.080     9859.648     12027.943
+795  TVMe+G4       4271.557     470 9483.115     9857.683     12025.978
+796  TVMe+I+G4     4270.137     471 9482.274     9858.755     12030.548
+797  TVMe+R2       4266.700     471 9475.400     9851.881     12023.674
+816  TVMe+I        4272.540     470 9485.080     9859.648     12027.943
+817  TVMe+G4       4271.557     470 9483.115     9857.683     12025.978
+818  TVMe+I+G4     4270.137     471 9482.274     9858.755     12030.548
+819  TVMe+R2       4266.700     471 9475.400     9851.881     12023.674
+838  TVM+I         4272.540     470 9485.079     9859.648     12027.942
+839  TVM+G4        4271.553     470 9483.106     9857.675     12025.969
+840  TVM+I+G4      4270.134     471 9482.268     9858.749     12030.541
+841  TVM+R2        4266.699     471 9475.399     9851.880     12023.672
+860  TVM+F+I       4220.360     473 9386.719     9767.045     11945.813
+861  TVM+F+G4      4219.177     473 9384.354     9764.679     11943.448
+862  TVM+F+I+G4    4218.041     474 9384.083     9766.341     11948.587
+863  TVM+F+R2      4215.105     474 9378.210     9760.468     11942.715
+882  SYM+I         4269.729     471 9481.458     9857.939     12029.732
+883  SYM+G4        4268.727     471 9479.454     9855.935     12027.727
+884  SYM+I+G4      4267.327     472 9478.653     9857.053     12032.337
+885  SYM+R2        4264.145     472 9472.290     9850.690     12025.973
+904  SYM+I         4269.729     471 9481.458     9857.939     12029.732
+905  SYM+G4        4268.727     471 9479.454     9855.935     12027.727
+906  SYM+I+G4      4267.327     472 9478.653     9857.053     12032.337
+907  SYM+R2        4264.145     472 9472.290     9850.690     12025.973
+926  GTR+I         4269.705     471 9481.410     9857.891     12029.684
+927  GTR+G4        4268.719     471 9479.438     9855.919     12027.711
+928  GTR+I+G4      4267.320     472 9478.640     9857.040     12032.324
+929  GTR+R2        4264.141     472 9472.282     9850.682     12025.966
+948  GTR+F+I       4220.248     474 9388.496     9770.754     11953.001
+949  GTR+F+G4      4219.086     474 9386.173     9768.431     11950.677
+950  GTR+F+I+G4    4217.933     475 9385.866     9770.063     11955.781
+951  GTR+F+R2      4215.001     475 9380.002     9764.199     11949.917
+Akaike Information Criterion:           TVM+F+R2
+Corrected Akaike Information Criterion: TVM+F+R2
+Bayesian Information Criterion:         K3Pu+F+R2
+Best-fit model: K3Pu+F+R2 chosen according to BIC
+
+All model information printed to CanadaOnly.model.gz
+CPU time for ModelFinder: 91.539 seconds (0h:1m:31s)
+Wall-clock time for ModelFinder: 68.766 seconds (0h:1m:8s)
+Generating 10000 samples for ultrafast bootstrap (seed: 214111)...
+
+NOTE: 11 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -4219.693
+Optimal log-likelihood: -4219.615
+Rate parameters:  A-C: 1.00000  A-G: 7.40930  A-T: 0.33377  C-G: 0.33377  C-T: 7.40930  G-T: 1.00000
+Base frequencies:  A: 0.346  C: 0.192  G: 0.230  T: 0.232
+Site proportion and rates:  (0.960,0.669) (0.040,8.994)
+Parameters optimization took 1 rounds (0.035 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0861632 secs using 99.74% CPU
+Computing ML distances took 0.086820 sec (of wall-clock time) 0.086139 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00109507 secs using 104.3% CPU
+Constructing RapidNJ tree: done in 0.00313629 secs using 99.99% CPU
+Computing RapidNJ tree took 0.004843 sec (of wall-clock time) 0.004364 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -4207.196
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.955 second
+Computing log-likelihood of 98 initial trees ... 0.576 seconds
+Current best score: -4206.504
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 0.401309 secs using 100% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -4206.125
+Optimizing NNI: done in 0.55037 secs using 100% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -4200.396
+Optimizing NNI: done in 0.396076 secs using 100% CPU
+Optimizing NNI: done in 0.581509 secs using 100% CPU
+Optimizing NNI: done in 0.388266 secs using 100% CPU
+Optimizing NNI: done in 0.563152 secs using 99.3% CPU
+Optimizing NNI: done in 0.40622 secs using 100% CPU
+Optimizing NNI: done in 0.875336 secs using 99.54% CPU
+Optimizing NNI: done in 0.378892 secs using 100% CPU
+Optimizing NNI: done in 0.568654 secs using 100% CPU
+Iteration 10 / LogL: -4209.478 / Time: 0h:1m:16s
+Optimizing NNI: done in 0.385263 secs using 98.96% CPU
+Optimizing NNI: done in 0.382895 secs using 100% CPU
+Optimizing NNI: done in 0.381826 secs using 100% CPU
+Optimizing NNI: done in 0.385458 secs using 99.99% CPU
+Optimizing NNI: done in 0.585653 secs using 99.32% CPU
+Optimizing NNI: done in 0.737585 secs using 99.46% CPU
+Optimizing NNI: done in 0.373457 secs using 98.94% CPU
+Optimizing NNI: done in 0.541236 secs using 97.45% CPU
+Optimizing NNI: done in 0.38665 secs using 98.97% CPU
+Optimizing NNI: done in 0.377319 secs using 100% CPU
+Iteration 20 / LogL: -4215.890 / Time: 0h:1m:20s
+Finish initializing candidate tree set (20)
+Current best tree score: -4200.396 / CPU time: 11.626
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 0.699015 secs using 99.42% CPU
+Optimizing NNI: done in 0.767348 secs using 98.43% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -4199.362
+Optimizing NNI: done in 0.671739 secs using 98.81% CPU
+Optimizing NNI: done in 0.632892 secs using 99.37% CPU
+Optimizing NNI: done in 0.854184 secs using 99.53% CPU
+Optimizing NNI: done in 0.605607 secs using 99.34% CPU
+Optimizing NNI: done in 0.466076 secs using 100% CPU
+Optimizing NNI: done in 0.682886 secs using 98.24% CPU
+Optimizing NNI: done in 0.659501 secs using 100% CPU
+Optimizing NNI: done in 0.530502 secs using 99.25% CPU
+Iteration 30 / LogL: -4221.209 / Time: 0h:1m:27s (0h:1m:0s left)
+Optimizing NNI: done in 0.670748 secs using 99.41% CPU
+Optimizing NNI: done in 0.616124 secs using 99.35% CPU
+Optimizing NNI: done in 0.467277 secs using 100% CPU
+Optimizing NNI: done in 0.881399 secs using 99.55% CPU
+Optimizing NNI: done in 0.781701 secs using 97.95% CPU
+Optimizing NNI: done in 0.659113 secs using 98.79% CPU
+Optimizing NNI: done in 0.57613 secs using 98.61% CPU
+Optimizing NNI: done in 0.581862 secs using 99.31% CPU
+Optimizing NNI: done in 0.857345 secs using 98.6% CPU
+Optimizing NNI: done in 0.504704 secs using 99.22% CPU
+Iteration 40 / LogL: -4203.611 / Time: 0h:1m:34s (0h:0m:54s left)
+Optimizing NNI: done in 0.739605 secs using 98.91% CPU
+Optimizing NNI: done in 0.626183 secs using 100% CPU
+Optimizing NNI: done in 0.230683 secs using 96.53% CPU
+Optimizing NNI: done in 0.725983 secs using 100% CPU
+Optimizing NNI: done in 0.800347 secs using 98% CPU
+Optimizing NNI: done in 0.510356 secs using 99.21% CPU
+Optimizing NNI: done in 0.656159 secs using 99.39% CPU
+Optimizing NNI: done in 0.897113 secs using 99.55% CPU
+Optimizing NNI: done in 0.827258 secs using 98.55% CPU
+Optimizing NNI: done in 0.460488 secs using 100% CPU
+Iteration 50 / LogL: -4217.510 / Time: 0h:1m:41s (0h:0m:48s left)
+Log-likelihood cutoff on original alignment: -4262.720
+Optimizing NNI: done in 0.609497 secs using 98.04% CPU
+Optimizing NNI: done in 0.335908 secs using 98.81% CPU
+Optimizing NNI: done in 0.507044 secs using 99.21% CPU
+Optimizing NNI: done in 0.638799 secs using 98.75% CPU
+Optimizing NNI: done in 0.633976 secs using 99.37% CPU
+Optimizing NNI: done in 0.578101 secs using 100% CPU
+Optimizing NNI: done in 0.474132 secs using 99.16% CPU
+Optimizing NNI: done in 0.321917 secs using 99.99% CPU
+Optimizing NNI: done in 0.676169 secs using 100% CPU
+Optimizing NNI: done in 0.642172 secs using 99.38% CPU
+Iteration 60 / LogL: -4206.530 / Time: 0h:1m:52s (0h:0m:45s left)
+Optimizing NNI: done in 0.626851 secs using 98.73% CPU
+Optimizing NNI: done in 0.486458 secs using 98.35% CPU
+Optimizing NNI: done in 0.783474 secs using 100% CPU
+Optimizing NNI: done in 0.678647 secs using 98.24% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 64: -4199.225
+Optimizing NNI: done in 0.589523 secs using 99.32% CPU
+Optimizing NNI: done in 0.426543 secs using 100% CPU
+Optimizing NNI: done in 0.602855 secs using 99.35% CPU
+Optimizing NNI: done in 0.489435 secs using 99.17% CPU
+Optimizing NNI: done in 0.43654 secs using 100% CPU
+Optimizing NNI: done in 0.626764 secs using 99.99% CPU
+Iteration 70 / LogL: -4200.327 / Time: 0h:1m:58s (0h:1m:7s left)
+Optimizing NNI: done in 0.484817 secs using 100% CPU
+Optimizing NNI: done in 0.658089 secs using 99.99% CPU
+Optimizing NNI: done in 0.540652 secs using 99.26% CPU
+Optimizing NNI: done in 0.490638 secs using 97.56% CPU
+Optimizing NNI: done in 0.521131 secs using 99.22% CPU
+Optimizing NNI: done in 0.572447 secs using 100% CPU
+Optimizing NNI: done in 0.501646 secs using 100% CPU
+Optimizing NNI: done in 0.310022 secs using 100% CPU
+Optimizing NNI: done in 0.748529 secs using 100% CPU
+Optimizing NNI: done in 0.633161 secs using 99.39% CPU
+Iteration 80 / LogL: -4199.353 / Time: 0h:2m:4s (0h:0m:58s left)
+Optimizing NNI: done in 0.556132 secs using 99.28% CPU
+Optimizing NNI: done in 0.625386 secs using 98.71% CPU
+Optimizing NNI: done in 0.637788 secs using 99.38% CPU
+Optimizing NNI: done in 0.540833 secs using 97.05% CPU
+Optimizing NNI: done in 0.598931 secs using 98.66% CPU
+Optimizing NNI: done in 0.529079 secs using 99.24% CPU
+Optimizing NNI: done in 0.589944 secs using 99.33% CPU
+Optimizing NNI: done in 0.598718 secs using 99.32% CPU
+Optimizing NNI: done in 0.441401 secs using 99.99% CPU
+Optimizing NNI: done in 0.489464 secs using 100% CPU
+Iteration 90 / LogL: -4199.358 / Time: 0h:2m:10s (0h:0m:51s left)
+Optimizing NNI: done in 0.478986 secs using 99.99% CPU
+Optimizing NNI: done in 0.367266 secs using 100% CPU
+Optimizing NNI: done in 0.840403 secs using 99.05% CPU
+Optimizing NNI: done in 0.728735 secs using 98.89% CPU
+Optimizing NNI: done in 0.661204 secs using 99.4% CPU
+Optimizing NNI: done in 0.604051 secs using 100% CPU
+Optimizing NNI: done in 0.654572 secs using 96.95% CPU
+Optimizing NNI: done in 0.709712 secs using 98.31% CPU
+Optimizing NNI: done in 0.661012 secs using 100% CPU
+Optimizing NNI: done in 0.644794 secs using 99.99% CPU
+Iteration 100 / LogL: -4204.030 / Time: 0h:2m:17s (0h:0m:44s left)
+Log-likelihood cutoff on original alignment: -4262.720
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+Optimizing NNI: done in 0.515623 secs using 99.99% CPU
+Optimizing NNI: done in 0.402279 secs using 100% CPU
+Optimizing NNI: done in 0.565898 secs using 100% CPU
+Optimizing NNI: done in 0.470815 secs using 100% CPU
+Optimizing NNI: done in 0.552332 secs using 99.27% CPU
+Optimizing NNI: done in 0.557203 secs using 100% CPU
+Optimizing NNI: done in 0.410252 secs using 98.06% CPU
+Optimizing NNI: done in 0.650145 secs using 98.77% CPU
+Optimizing NNI: done in 0.299039 secs using 100% CPU
+Optimizing NNI: done in 0.454267 secs using 99.12% CPU
+Iteration 110 / LogL: -4217.045 / Time: 0h:2m:26s (0h:1m:4s left)
+Optimizing NNI: done in 0.690496 secs using 99.42% CPU
+Optimizing NNI: done in 0.611655 secs using 100% CPU
+Optimizing NNI: done in 0.596326 secs using 99.34% CPU
+Optimizing NNI: done in 0.447697 secs using 99.11% CPU
+Optimizing NNI: done in 0.563084 secs using 99.99% CPU
+Optimizing NNI: done in 0.573619 secs using 100% CPU
+Optimizing NNI: done in 0.461484 secs using 100% CPU
+Optimizing NNI: done in 0.397106 secs using 100% CPU
+Optimizing NNI: done in 0.497032 secs using 98.4% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 119: -4199.067
+Optimizing NNI: done in 0.678386 secs using 100% CPU
+Iteration 120 / LogL: -4200.731 / Time: 0h:2m:32s (0h:1m:9s left)
+Optimizing NNI: done in 0.499136 secs using 99.99% CPU
+Optimizing NNI: done in 0.519363 secs using 98.46% CPU
+Optimizing NNI: done in 0.521038 secs using 100% CPU
+Optimizing NNI: done in 0.494289 secs using 100% CPU
+Optimizing NNI: done in 0.653707 secs using 99.38% CPU
+Optimizing NNI: done in 0.504901 secs using 99.21% CPU
+Optimizing NNI: done in 0.577006 secs using 100% CPU
+Optimizing NNI: done in 0.593985 secs using 99.32% CPU
+Optimizing NNI: done in 0.414447 secs using 97.12% CPU
+Optimizing NNI: done in 0.356028 secs using 98.87% CPU
+Iteration 130 / LogL: -4199.209 / Time: 0h:2m:38s (0h:1m:1s left)
+Optimizing NNI: done in 0.291066 secs using 95.88% CPU
+Optimizing NNI: done in 0.511381 secs using 99.22% CPU
+Optimizing NNI: done in 0.545389 secs using 99.26% CPU
+Optimizing NNI: done in 0.396448 secs using 99% CPU
+Optimizing NNI: done in 0.680327 secs using 99.41% CPU
+Optimizing NNI: done in 0.475572 secs using 99.99% CPU
+Optimizing NNI: done in 0.442191 secs using 99.09% CPU
+Optimizing NNI: done in 0.493849 secs using 99.19% CPU
+Optimizing NNI: done in 0.61964 secs using 99.35% CPU
+Optimizing NNI: done in 0.668512 secs using 98.8% CPU
+Iteration 140 / LogL: -4200.717 / Time: 0h:2m:43s (0h:0m:54s left)
+Optimizing NNI: done in 0.442103 secs using 99.09% CPU
+Optimizing NNI: done in 0.573908 secs using 100% CPU
+Optimizing NNI: done in 0.763715 secs using 98.42% CPU
+Optimizing NNI: done in 0.417754 secs using 99.04% CPU
+Optimizing NNI: done in 0.586461 secs using 99.32% CPU
+Optimizing NNI: done in 0.529642 secs using 96.98% CPU
+Optimizing NNI: done in 0.55944 secs using 99.29% CPU
+Optimizing NNI: done in 0.529481 secs using 100% CPU
+Optimizing NNI: done in 0.555425 secs using 99.99% CPU
+Optimizing NNI: done in 0.611565 secs using 98.7% CPU
+Iteration 150 / LogL: -4217.652 / Time: 0h:2m:49s (0h:0m:46s left)
+Log-likelihood cutoff on original alignment: -4262.720
+Optimizing NNI: done in 0.448214 secs using 100% CPU
+Optimizing NNI: done in 0.703797 secs using 99.44% CPU
+Optimizing NNI: done in 0.379665 secs using 99.99% CPU
+Optimizing NNI: done in 0.438441 secs using 100% CPU
+Optimizing NNI: done in 0.414919 secs using 98.08% CPU
+Optimizing NNI: done in 0.553667 secs using 99.28% CPU
+Optimizing NNI: done in 0.479471 secs using 99.16% CPU
+Optimizing NNI: done in 0.52503 secs using 99.24% CPU
+Optimizing NNI: done in 0.572268 secs using 99.31% CPU
+Optimizing NNI: done in 0.580008 secs using 100% CPU
+Iteration 160 / LogL: -4206.212 / Time: 0h:2m:59s (0h:0m:41s left)
+Optimizing NNI: done in 0.527487 secs using 98.48% CPU
+Optimizing NNI: done in 0.536454 secs using 99.26% CPU
+Optimizing NNI: done in 0.586188 secs using 99.99% CPU
+Optimizing NNI: done in 0.333895 secs using 98.82% CPU
+Optimizing NNI: done in 0.419851 secs using 99.05% CPU
+Optimizing NNI: done in 0.833528 secs using 98.56% CPU
+Optimizing NNI: done in 0.530928 secs using 97.74% CPU
+Optimizing NNI: done in 0.48821 secs using 100% CPU
+Optimizing NNI: done in 0.417778 secs using 99.04% CPU
+Optimizing NNI: done in 0.582308 secs using 99.31% CPU
+Iteration 170 / LogL: -4199.217 / Time: 0h:3m:5s (0h:0m:33s left)
+Optimizing NNI: done in 0.537457 secs using 97.03% CPU
+Optimizing NNI: done in 0.446484 secs using 100% CPU
+Optimizing NNI: done in 0.786109 secs using 99.49% CPU
+Optimizing NNI: done in 0.693818 secs using 100% CPU
+Optimizing NNI: done in 0.51797 secs using 98.47% CPU
+Optimizing NNI: done in 0.606321 secs using 100% CPU
+Optimizing NNI: done in 0.395142 secs using 97.98% CPU
+Optimizing NNI: done in 0.58424 secs using 100% CPU
+Optimizing NNI: done in 0.724787 secs using 99.99% CPU
+Optimizing NNI: done in 0.453475 secs using 100% CPU
+Iteration 180 / LogL: -4199.094 / Time: 0h:3m:12s (0h:0m:26s left)
+Optimizing NNI: done in 0.563093 secs using 100% CPU
+Optimizing NNI: done in 0.639102 secs using 99.37% CPU
+Optimizing NNI: done in 0.292314 secs using 98.65% CPU
+Optimizing NNI: done in 0.399719 secs using 100% CPU
+Optimizing NNI: done in 0.443214 secs using 99.09% CPU
+Optimizing NNI: done in 0.487517 secs using 100% CPU
+Optimizing NNI: done in 0.580468 secs using 100% CPU
+Optimizing NNI: done in 0.340041 secs using 100% CPU
+Optimizing NNI: done in 0.661962 secs using 99.99% CPU
+Optimizing NNI: done in 0.576739 secs using 99.99% CPU
+Iteration 190 / LogL: -4200.609 / Time: 0h:3m:18s (0h:0m:19s left)
+Optimizing NNI: done in 0.730105 secs using 99.45% CPU
+Optimizing NNI: done in 0.324298 secs using 97.54% CPU
+Optimizing NNI: done in 0.439933 secs using 99.99% CPU
+Optimizing NNI: done in 0.361437 secs using 100% CPU
+Optimizing NNI: done in 0.572111 secs using 98.6% CPU
+Optimizing NNI: done in 0.819073 secs using 99.03% CPU
+Optimizing NNI: done in 0.559816 secs using 98.57% CPU
+Optimizing NNI: done in 0.345154 secs using 98.85% CPU
+Optimizing NNI: done in 0.426487 secs using 97.18% CPU
+Optimizing NNI: done in 0.49793 secs using 100% CPU
+Iteration 200 / LogL: -4199.209 / Time: 0h:3m:24s (0h:0m:12s left)
+Log-likelihood cutoff on original alignment: -4262.720
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.986
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Optimizing NNI: done in 0.764699 secs using 100% CPU
+Optimizing NNI: done in 0.608973 secs using 98.7% CPU
+Optimizing NNI: done in 0.421319 secs using 99.05% CPU
+Optimizing NNI: done in 0.553804 secs using 100% CPU
+Optimizing NNI: done in 0.56666 secs using 99.29% CPU
+Optimizing NNI: done in 0.353041 secs using 98.86% CPU
+Optimizing NNI: done in 0.683031 secs using 99.41% CPU
+Optimizing NNI: done in 0.752047 secs using 99.99% CPU
+Optimizing NNI: done in 0.503502 secs using 98.42% CPU
+Optimizing NNI: done in 0.685693 secs using 99.42% CPU
+Iteration 210 / LogL: -4207.087 / Time: 0h:3m:34s (0h:1m:2s left)
+Optimizing NNI: done in 0.64383 secs using 99.37% CPU
+Optimizing NNI: done in 0.47465 secs using 100% CPU
+Optimizing NNI: done in 0.472366 secs using 100% CPU
+Optimizing NNI: done in 0.632986 secs using 98.11% CPU
+Optimizing NNI: done in 0.596255 secs using 100% CPU
+Optimizing NNI: done in 0.580029 secs using 100% CPU
+Optimizing NNI: done in 0.825652 secs using 98.55% CPU
+Optimizing NNI: done in 0.672786 secs using 99.41% CPU
+Optimizing NNI: done in 0.571572 secs using 97.9% CPU
+Optimizing NNI: done in 0.564919 secs using 98.58% CPU
+Iteration 220 / LogL: -4228.019 / Time: 0h:3m:41s (0h:0m:55s left)
+Optimizing NNI: done in 0.610775 secs using 100% CPU
+Optimizing NNI: done in 0.715195 secs using 97.76% CPU
+Optimizing NNI: done in 0.537912 secs using 99.25% CPU
+Optimizing NNI: done in 0.642375 secs using 99.38% CPU
+Optimizing NNI: done in 0.51839 secs using 99.99% CPU
+Optimizing NNI: done in 0.458372 secs using 100% CPU
+Optimizing NNI: done in 0.341663 secs using 98.83% CPU
+Optimizing NNI: done in 0.628256 secs using 98.73% CPU
+Optimizing NNI: done in 0.591811 secs using 99.32% CPU
+Optimizing NNI: done in 0.664622 secs using 100% CPU
+Iteration 230 / LogL: -4199.090 / Time: 0h:3m:48s (0h:0m:48s left)
+Optimizing NNI: done in 0.580079 secs using 98.62% CPU
+Optimizing NNI: done in 0.656653 secs using 99.39% CPU
+Optimizing NNI: done in 0.663516 secs using 98.79% CPU
+Optimizing NNI: done in 0.622584 secs using 99.36% CPU
+Optimizing NNI: done in 0.568545 secs using 99.29% CPU
+Optimizing NNI: done in 0.287642 secs using 100% CPU
+Optimizing NNI: done in 0.658143 secs using 98.78% CPU
+Optimizing NNI: done in 0.625548 secs using 99.36% CPU
+Optimizing NNI: done in 0.357053 secs using 100% CPU
+Optimizing NNI: done in 0.639095 secs using 98.13% CPU
+Iteration 240 / LogL: -4200.576 / Time: 0h:3m:55s (0h:0m:41s left)
+Optimizing NNI: done in 0.541844 secs using 99.26% CPU
+Optimizing NNI: done in 0.556767 secs using 100% CPU
+Optimizing NNI: done in 0.532595 secs using 97% CPU
+Optimizing NNI: done in 0.582861 secs using 96.57% CPU
+Optimizing NNI: done in 0.618788 secs using 100% CPU
+Optimizing NNI: done in 0.596434 secs using 97.98% CPU
+Optimizing NNI: done in 0.363871 secs using 99.99% CPU
+Optimizing NNI: done in 0.519996 secs using 99.24% CPU
+Optimizing NNI: done in 0.690266 secs using 98.84% CPU
+Optimizing NNI: done in 0.925156 secs using 99.13% CPU
+Iteration 250 / LogL: -4205.036 / Time: 0h:4m:2s (0h:0m:34s left)
+Log-likelihood cutoff on original alignment: -4262.720
+Optimizing NNI: done in 0.732128 secs using 99.99% CPU
+Optimizing NNI: done in 0.526794 secs using 99.24% CPU
+Optimizing NNI: done in 0.697241 secs using 100% CPU
+Optimizing NNI: done in 0.637743 secs using 98.75% CPU
+Optimizing NNI: done in 0.49176 secs using 99.18% CPU
+Optimizing NNI: done in 0.839081 secs using 99.04% CPU
+Optimizing NNI: done in 0.548741 secs using 100% CPU
+Optimizing NNI: done in 0.645513 secs using 100% CPU
+Optimizing NNI: done in 0.468021 secs using 100% CPU
+Optimizing NNI: done in 0.471924 secs using 98.3% CPU
+Iteration 260 / LogL: -4206.172 / Time: 0h:4m:13s (0h:0m:28s left)
+Optimizing NNI: done in 0.49624 secs using 97.58% CPU
+Optimizing NNI: done in 0.316408 secs using 99.99% CPU
+Optimizing NNI: done in 0.786174 secs using 99.49% CPU
+Optimizing NNI: done in 0.562241 secs using 97.87% CPU
+Optimizing NNI: done in 0.665356 secs using 98.19% CPU
+Optimizing NNI: done in 0.480233 secs using 96.67% CPU
+Optimizing NNI: done in 0.571904 secs using 98.6% CPU
+Optimizing NNI: done in 0.520867 secs using 99.23% CPU
+Optimizing NNI: done in 0.633925 secs using 100% CPU
+Optimizing NNI: done in 0.490139 secs using 100% CPU
+Iteration 270 / LogL: -4200.292 / Time: 0h:4m:20s (0h:0m:21s left)
+Optimizing NNI: done in 0.411358 secs using 99.03% CPU
+Optimizing NNI: done in 0.333511 secs using 98.78% CPU
+Optimizing NNI: done in 0.422532 secs using 99.99% CPU
+Optimizing NNI: done in 0.58402 secs using 100% CPU
+Optimizing NNI: done in 0.564023 secs using 99.29% CPU
+Optimizing NNI: done in 0.460811 secs using 99.13% CPU
+Optimizing NNI: done in 0.540182 secs using 99.26% CPU
+Optimizing NNI: done in 0.52678 secs using 97.71% CPU
+Optimizing NNI: done in 0.545457 secs using 99.27% CPU
+Optimizing NNI: done in 0.69042 secs using 100% CPU
+Iteration 280 / LogL: -4199.097 / Time: 0h:4m:27s (0h:0m:14s left)
+Optimizing NNI: done in 0.550939 secs using 100% CPU
+Optimizing NNI: done in 0.414448 secs using 99.04% CPU
+Optimizing NNI: done in 0.453583 secs using 99.12% CPU
+Optimizing NNI: done in 0.609243 secs using 100% CPU
+Optimizing NNI: done in 0.574239 secs using 100% CPU
+Optimizing NNI: done in 0.536429 secs using 100% CPU
+Optimizing NNI: done in 0.642901 secs using 99.38% CPU
+Optimizing NNI: done in 0.478218 secs using 99.17% CPU
+Optimizing NNI: done in 0.570437 secs using 100% CPU
+Optimizing NNI: done in 0.562638 secs using 98.57% CPU
+Iteration 290 / LogL: -4199.098 / Time: 0h:4m:33s (0h:0m:7s left)
+Optimizing NNI: done in 0.339727 secs using 98.83% CPU
+Optimizing NNI: done in 0.430843 secs using 100% CPU
+Optimizing NNI: done in 0.634701 secs using 99.99% CPU
+Optimizing NNI: done in 0.492181 secs using 100% CPU
+Optimizing NNI: done in 0.619593 secs using 99.99% CPU
+Optimizing NNI: done in 0.409126 secs using 99.99% CPU
+Optimizing NNI: done in 0.624304 secs using 98.08% CPU
+Optimizing NNI: done in 0.528786 secs using 99.24% CPU
+Optimizing NNI: done in 0.46801 secs using 99.14% CPU
+Optimizing NNI: done in 0.658437 secs using 99.39% CPU
+Iteration 300 / LogL: -4206.837 / Time: 0h:4m:40s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -4262.720
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+TREE SEARCH COMPLETED AFTER 300 ITERATIONS / Time: 0h:4m:43s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -4199.067
+Optimal log-likelihood: -4199.054
+Rate parameters:  A-C: 1.00000  A-G: 7.32467  A-T: 0.29104  C-G: 0.29104  C-T: 7.32467  G-T: 1.00000
+Base frequencies:  A: 0.346  C: 0.192  G: 0.230  T: 0.232
+Site proportion and rates:  (0.990,0.810) (0.010,20.233)
+Parameters optimization took 1 rounds (0.029 sec)
+BEST SCORE FOUND : -4199.054
+
+Testing tree branches by SH-like aLRT with 10000 replicates...
+42.835 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file CanadaOnly.splits.nex
+Total tree length: 0.145
+
+Total number of iterations: 300
+CPU time used for tree search: 210.249 sec (0h:3m:30s)
+Wall-clock time used for tree search: 214.586 sec (0h:3m:34s)
+Total CPU time used: 348.924 sec (0h:5m:48s)
+Total wall-clock time used: 334.247 sec (0h:5m:34s)
+
+Computing bootstrap consensus tree...
+Reading input file CanadaOnly.splits.nex...
+234 taxa and 12870 splits.
+Consensus tree written to CanadaOnly.contree
+Reading input trees file CanadaOnly.contree
+Log-likelihood of consensus tree: -4199.690
+
+Analysis results written to: 
+  IQ-TREE report:                CanadaOnly.iqtree
+  Maximum-likelihood tree:       CanadaOnly.treefile
+  Likelihood distances:          CanadaOnly.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          CanadaOnly.splits.nex
+  Consensus tree:                CanadaOnly.contree
+  Screen log file:               CanadaOnly.log
+
+NOTE: 4.828 seconds to dump checkpoint file, increase to 97.000
+Date and Time: Thu Jan  8 15:37:41 2026

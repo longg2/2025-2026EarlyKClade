@@ -1,0 +1,1233 @@
+IQ-TREE version 3.0.1 for Linux x86 64-bit built Jul  9 2025
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    ON44C03637251 (AVX2, FMA3, 31 GB RAM)
+Command: iqtree -s ../CanadianKCladeTempestRefiltering/CanadaOnly.fasta -m MFP -B 10000 -alrt 10000 --prefix CanadaOnly -T auto
+Seed:    861552 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jan 12 14:04:12 2026
+Kernel:  AVX+FMA - auto-detect threads (20 CPU cores detected)
+
+Reading alignment file ../CanadianKCladeTempestRefiltering/CanadaOnly.fasta ... Fasta format detected
+Reading fasta file: done in 0.00925275 secs using 5.869% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00651862 secs using 2030% CPU
+Alignment has 378 sequences with 1653 columns, 186 distinct patterns
+79 parsimony-informative, 86 singleton sites, 1488 constant sites
+                  Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 4.4988e-05 secs using 8845% CPU
+   1  EPI_ISL_20212945    0.00%    passed    100.00%
+   2  EPI_ISL_20212992    0.00%    passed    100.00%
+   3  EPI_ISL_20236994    0.00%    passed     99.99%
+   4  EPI_ISL_20244506    0.06%    passed     99.99%
+   5  EPI_ISL_20244507    0.00%    passed     99.96%
+   6  EPI_ISL_20244508    0.06%    passed     99.98%
+   7  EPI_ISL_20244509    0.00%    passed     99.96%
+   8  EPI_ISL_20244510    0.00%    passed     99.96%
+   9  EPI_ISL_20244511    0.06%    passed     99.98%
+  10  EPI_ISL_20244512    0.00%    passed     99.96%
+  11  EPI_ISL_20244513    0.06%    passed     99.90%
+  12  EPI_ISL_20249456    0.00%    passed    100.00%
+  13  EPI_ISL_20249457    0.00%    passed     99.95%
+  14  EPI_ISL_20249459    0.00%    passed    100.00%
+  15  EPI_ISL_20249460    0.00%    passed     99.98%
+  16  EPI_ISL_20249461    0.00%    passed     99.97%
+  17  EPI_ISL_20249462    0.00%    passed     99.99%
+  18  EPI_ISL_20249463    0.00%    passed     99.97%
+  19  EPI_ISL_20249466    0.00%    passed    100.00%
+  20  EPI_ISL_20253218    0.00%    passed     99.97%
+  21  EPI_ISL_20255430    0.00%    passed     99.96%
+  22  EPI_ISL_20255431    0.00%    passed     99.96%
+  23  EPI_ISL_20255434    0.00%    passed     99.96%
+  24  EPI_ISL_20255435    0.00%    passed     99.96%
+  25  EPI_ISL_20255436    0.00%    passed     99.96%
+  26  EPI_ISL_20255437    0.00%    passed     99.96%
+  27  EPI_ISL_20255438    0.00%    passed     99.96%
+  28  EPI_ISL_20255439    0.18%    passed     99.94%
+  29  EPI_ISL_20257572    0.00%    passed     99.99%
+  30  EPI_ISL_20257584    0.00%    passed     99.97%
+  31  EPI_ISL_20257585    0.00%    passed    100.00%
+  32  EPI_ISL_20257586    0.00%    passed     99.77%
+  33  EPI_ISL_20257587    0.00%    passed    100.00%
+  34  EPI_ISL_20257589    0.00%    passed     99.86%
+  35  EPI_ISL_20257590    0.06%    passed    100.00%
+  36  EPI_ISL_20257594    0.00%    passed     99.86%
+  37  EPI_ISL_20258550    0.00%    passed     99.95%
+  38  EPI_ISL_20258552    0.00%    passed    100.00%
+  39  EPI_ISL_20258554    0.00%    passed     99.98%
+  40  EPI_ISL_20258555    0.00%    passed    100.00%
+  41  EPI_ISL_20258556    0.00%    passed    100.00%
+  42  EPI_ISL_20258558    0.00%    passed     99.97%
+  43  EPI_ISL_20258567    0.00%    passed     99.96%
+  44  EPI_ISL_20258571    0.00%    passed     99.95%
+  45  EPI_ISL_20258572    0.00%    passed     99.95%
+  46  EPI_ISL_20258581    0.00%    passed    100.00%
+  47  EPI_ISL_20258582    0.00%    passed     99.95%
+  48  EPI_ISL_20258593    0.00%    passed    100.00%
+  49  EPI_ISL_20258597    0.00%    passed     99.95%
+  50  EPI_ISL_20258599    0.00%    passed     99.95%
+  51  EPI_ISL_20258600    0.00%    passed    100.00%
+  52  EPI_ISL_20258601    0.00%    passed    100.00%
+  53  EPI_ISL_20258603    0.00%    passed    100.00%
+  54  EPI_ISL_20258605    0.00%    passed     99.87%
+  55  EPI_ISL_20258607    0.00%    passed     99.95%
+  56  EPI_ISL_20258610    0.00%    passed    100.00%
+  57  EPI_ISL_20258612    0.00%    passed    100.00%
+  58  EPI_ISL_20258621    0.12%    passed     99.97%
+  59  EPI_ISL_20258623    0.00%    passed     99.95%
+  60  EPI_ISL_20258624    0.00%    passed    100.00%
+  61  EPI_ISL_20258629    0.00%    passed    100.00%
+  62  EPI_ISL_20260282    0.00%    passed    100.00%
+  63  EPI_ISL_20260283    0.00%    passed     99.97%
+  64  EPI_ISL_20260285    0.00%    passed    100.00%
+  65  EPI_ISL_20260286    0.00%    passed     99.97%
+  66  EPI_ISL_20260287    0.00%    passed    100.00%
+  67  EPI_ISL_20260288    0.06%    passed     99.92%
+  68  EPI_ISL_20266557    0.00%    passed    100.00%
+  69  EPI_ISL_20266559    0.00%    passed     99.87%
+  70  EPI_ISL_20266568    0.00%    passed    100.00%
+  71  EPI_ISL_20266569    0.00%    passed    100.00%
+  72  EPI_ISL_20266573    0.00%    passed     99.84%
+  73  EPI_ISL_20266574    0.00%    passed     99.96%
+  74  EPI_ISL_20266578    0.00%    passed     99.96%
+  75  EPI_ISL_20266581    0.00%    passed     99.99%
+  76  EPI_ISL_20266585    0.00%    passed     99.95%
+  77  EPI_ISL_20266586    0.00%    passed     99.97%
+  78  EPI_ISL_20266591    0.00%    passed     99.98%
+  79  EPI_ISL_20266592    0.06%    passed     99.94%
+  80  EPI_ISL_20267205    0.00%    passed     99.96%
+  81  EPI_ISL_20267208    0.06%    passed     99.95%
+  82  EPI_ISL_20267209    0.00%    passed     99.96%
+  83  EPI_ISL_20267210    0.00%    passed     99.83%
+  84  EPI_ISL_20267211    0.00%    passed     99.96%
+  85  EPI_ISL_20267212    0.00%    passed     99.96%
+  86  EPI_ISL_20267213    0.06%    passed     99.98%
+  87  EPI_ISL_20267214    0.00%    passed     99.92%
+  88  EPI_ISL_20267215    0.00%    passed     99.96%
+  89  EPI_ISL_20267216    0.00%    passed     99.99%
+  90  EPI_ISL_20267217    0.06%    passed     99.98%
+  91  EPI_ISL_20267219    0.00%    passed     99.96%
+  92  EPI_ISL_20267221    0.00%    passed     99.99%
+  93  EPI_ISL_20267223    0.06%    passed     99.98%
+  94  EPI_ISL_20267224    0.00%    passed     99.99%
+  95  EPI_ISL_20267227    0.00%    passed     99.96%
+  96  EPI_ISL_20267228    0.00%    passed     99.96%
+  97  EPI_ISL_20267229    0.00%    passed     99.96%
+  98  EPI_ISL_20267230    0.00%    passed     99.96%
+  99  EPI_ISL_20267231    0.00%    passed     99.96%
+ 100  EPI_ISL_20267232    0.00%    passed     99.96%
+ 101  EPI_ISL_20267233    0.00%    passed     99.96%
+ 102  EPI_ISL_20267234    0.00%    passed     99.96%
+ 103  EPI_ISL_20267235    0.12%    passed     99.95%
+ 104  EPI_ISL_20267236    0.00%    passed     99.99%
+ 105  EPI_ISL_20267237    0.00%    passed     99.96%
+ 106  EPI_ISL_20267238    0.00%    passed     99.99%
+ 107  EPI_ISL_20267239    0.00%    passed     99.99%
+ 108  EPI_ISL_20267240    0.06%    passed     99.99%
+ 109  EPI_ISL_20281590    0.00%    passed     99.77%
+ 110  EPI_ISL_20281592    0.00%    passed    100.00%
+ 111  EPI_ISL_20281595    0.00%    passed    100.00%
+ 112  EPI_ISL_20281596    0.00%    passed     99.77%
+ 113  EPI_ISL_20281597    0.00%    passed    100.00%
+ 114  EPI_ISL_20281600    0.00%    passed     99.77%
+ 115  EPI_ISL_20281604    0.00%    passed    100.00%
+ 116  EPI_ISL_20281611    0.18%    passed     99.99%
+ 117  EPI_ISL_20281614    0.00%    passed     99.99%
+ 118  EPI_ISL_20281615    0.00%    passed    100.00%
+ 119  EPI_ISL_20281617    0.00%    passed     99.86%
+ 120  EPI_ISL_20281618    0.00%    passed    100.00%
+ 121  EPI_ISL_20281621    0.00%    passed    100.00%
+ 122  EPI_ISL_20281624    0.06%    passed     99.83%
+ 123  EPI_ISL_20281627    0.00%    passed    100.00%
+ 124  EPI_ISL_20281629    0.00%    passed    100.00%
+ 125  EPI_ISL_20281633    0.00%    passed    100.00%
+ 126  EPI_ISL_20281634    0.00%    passed     99.97%
+ 127  EPI_ISL_20281636    0.00%    passed    100.00%
+ 128  EPI_ISL_20281637    0.00%    passed     99.79%
+ 129  EPI_ISL_20281639    0.00%    passed    100.00%
+ 130  EPI_ISL_20281642    0.00%    passed    100.00%
+ 131  EPI_ISL_20281644    0.00%    passed     99.77%
+ 132  EPI_ISL_20281649    0.00%    passed     99.96%
+ 133  EPI_ISL_20281651    0.00%    passed    100.00%
+ 134  EPI_ISL_20281652    0.00%    passed     99.86%
+ 135  EPI_ISL_20281654    0.00%    passed     99.95%
+ 136  EPI_ISL_20281657    0.00%    passed     99.97%
+ 137  EPI_ISL_20281659    0.00%    passed     99.99%
+ 138  EPI_ISL_20281661    0.00%    passed    100.00%
+ 139  EPI_ISL_20281662    0.00%    passed    100.00%
+ 140  EPI_ISL_20281664    0.00%    passed    100.00%
+ 141  EPI_ISL_20281665    0.00%    passed     99.91%
+ 142  EPI_ISL_20281668    0.00%    passed     99.97%
+ 143  EPI_ISL_20281763    0.00%    passed     99.95%
+ 144  EPI_ISL_20281784    0.00%    passed     99.95%
+ 145  EPI_ISL_20281809    0.06%    passed     99.95%
+ 146  EPI_ISL_20281820    0.00%    passed    100.00%
+ 147  EPI_ISL_20281896    0.00%    passed    100.00%
+ 148  EPI_ISL_20281961    0.00%    passed     99.96%
+ 149  EPI_ISL_20282028    0.00%    passed     99.83%
+ 150  EPI_ISL_20282032    0.00%    passed     99.97%
+ 151  EPI_ISL_20282034    0.00%    passed     99.96%
+ 152  EPI_ISL_20282035    0.00%    passed     99.99%
+ 153  EPI_ISL_20282054    7.20%    passed     99.81%
+ 154  EPI_ISL_20282056    0.00%    passed     99.97%
+ 155  EPI_ISL_20282058    0.00%    passed     99.96%
+ 156  EPI_ISL_20282074    0.00%    passed     99.88%
+ 157  EPI_ISL_20282075    0.06%    passed     99.97%
+ 158  EPI_ISL_20282082    0.00%    passed     99.84%
+ 159  EPI_ISL_20282089    0.00%    passed     99.99%
+ 160  EPI_ISL_20282094    0.00%    passed     99.99%
+ 161  EPI_ISL_20282106    0.00%    passed     99.93%
+ 162  EPI_ISL_20282110    0.00%    passed     99.95%
+ 163  EPI_ISL_20282111    0.00%    passed     99.95%
+ 164  EPI_ISL_20282116    0.00%    passed     99.99%
+ 165  EPI_ISL_20282124    0.00%    passed    100.00%
+ 166  EPI_ISL_20282126    0.00%    passed    100.00%
+ 167  EPI_ISL_20283194    0.00%    passed     99.96%
+ 168  EPI_ISL_20283195    0.06%    passed     99.75%
+ 169  EPI_ISL_20283197    0.00%    passed     99.99%
+ 170  EPI_ISL_20283199    0.00%    passed     99.92%
+ 171  EPI_ISL_20283200    0.00%    passed     99.92%
+ 172  EPI_ISL_20283201    0.00%    passed     99.92%
+ 173  EPI_ISL_20283202    0.00%    passed     99.96%
+ 174  EPI_ISL_20283204    0.00%    passed     99.84%
+ 175  EPI_ISL_20283205    0.06%    passed     99.99%
+ 176  EPI_ISL_20283206    0.00%    passed     99.99%
+ 177  EPI_ISL_20283207    0.00%    passed     99.96%
+ 178  EPI_ISL_20283209    0.00%    passed     99.89%
+ 179  EPI_ISL_20283211    0.00%    passed     99.96%
+ 180  EPI_ISL_20283212    0.00%    passed     99.99%
+ 181  EPI_ISL_20283213    0.00%    passed    100.00%
+ 182  EPI_ISL_20283214    0.00%    passed     99.96%
+ 183  EPI_ISL_20287733    0.00%    passed    100.00%
+ 184  EPI_ISL_20287737    0.00%    passed     99.96%
+ 185  EPI_ISL_20287738    0.00%    passed     99.96%
+ 186  EPI_ISL_20287741    0.00%    passed     99.96%
+ 187  EPI_ISL_20287742    0.00%    passed     99.96%
+ 188  EPI_ISL_20287743    0.00%    passed     99.83%
+ 189  EPI_ISL_20287744    0.00%    passed     99.96%
+ 190  EPI_ISL_20287745    0.00%    passed     99.96%
+ 191  EPI_ISL_20287746    0.00%    passed     99.96%
+ 192  EPI_ISL_20287747    0.00%    passed     99.96%
+ 193  EPI_ISL_20287748    0.00%    passed     99.96%
+ 194  EPI_ISL_20287749    0.00%    passed     99.96%
+ 195  EPI_ISL_20287750    0.00%    passed     99.96%
+ 196  EPI_ISL_20287752    0.00%    passed     99.96%
+ 197  EPI_ISL_20287758    0.06%    passed     99.95%
+ 198  EPI_ISL_20287759    0.00%    passed     99.96%
+ 199  EPI_ISL_20287760    0.00%    passed     99.96%
+ 200  EPI_ISL_20289538    0.00%    passed     99.96%
+ 201  EPI_ISL_20289540    0.12%    passed     99.89%
+ 202  EPI_ISL_20289542    0.00%    passed     99.96%
+ 203  EPI_ISL_20289544    0.00%    passed     99.96%
+ 204  EPI_ISL_20289546    0.00%    passed     99.96%
+ 205  EPI_ISL_20289552    0.00%    passed     99.96%
+ 206  EPI_ISL_20289554    0.00%    passed     99.96%
+ 207  EPI_ISL_20289568    0.00%    passed     99.99%
+ 208  EPI_ISL_20289572    0.00%    passed     99.95%
+ 209  EPI_ISL_20289575    0.00%    passed     99.96%
+ 210  EPI_ISL_20289579    0.00%    passed     99.95%
+ 211  EPI_ISL_20289583    0.00%    passed     99.86%
+ 212  EPI_ISL_20289596    0.00%    passed     99.87%
+ 213  EPI_ISL_20289598    0.00%    passed     99.90%
+ 214  EPI_ISL_20289600    0.00%    passed     99.90%
+ 215  EPI_ISL_20289601    0.00%    passed     99.91%
+ 216  EPI_ISL_20289603    0.00%    passed     99.92%
+ 217  EPI_ISL_20289607    0.06%    passed     99.92%
+ 218  EPI_ISL_20289609    0.00%    passed     99.99%
+ 219  EPI_ISL_20289611    0.00%    passed     99.77%
+ 220  EPI_ISL_20289613    0.06%    passed     99.90%
+ 221  EPI_ISL_20289615    0.00%    passed     99.97%
+ 222  EPI_ISL_20289617    0.00%    passed     99.97%
+ 223  EPI_ISL_20289619    0.00%    passed    100.00%
+ 224  EPI_ISL_20289621    0.00%    passed    100.00%
+ 225  EPI_ISL_20289623    0.06%    passed    100.00%
+ 226  EPI_ISL_20289640    0.06%    passed     99.92%
+ 227  EPI_ISL_20289646    0.00%    passed    100.00%
+ 228  EPI_ISL_20289648    0.00%    passed     99.78%
+ 229  EPI_ISL_20289656    0.00%    passed    100.00%
+ 230  EPI_ISL_20289658    0.06%    passed     99.92%
+ 231  EPI_ISL_20289660    0.00%    passed     99.89%
+ 232  EPI_ISL_20289662    0.00%    passed     99.97%
+ 233  EPI_ISL_20289664    0.00%    passed     99.96%
+ 234  EPI_ISL_20289667    0.06%    passed     99.98%
+ 235  EPI_ISL_20289669    0.00%    passed    100.00%
+ 236  EPI_ISL_20289671    0.00%    passed    100.00%
+ 237  EPI_ISL_20289675    0.00%    passed    100.00%
+ 238  EPI_ISL_20289683    0.00%    passed    100.00%
+ 239  EPI_ISL_20289684    0.00%    passed     99.86%
+ 240  EPI_ISL_20289687    0.00%    passed     99.95%
+ 241  EPI_ISL_20289688    0.00%    passed     99.86%
+ 242  EPI_ISL_20289689    0.00%    passed     99.96%
+ 243  EPI_ISL_20289691    0.00%    passed     99.99%
+ 244  EPI_ISL_20289693    0.00%    passed     99.97%
+ 245  EPI_ISL_20289695    0.00%    passed    100.00%
+ 246  EPI_ISL_20289717    0.06%    passed    100.00%
+ 247  EPI_ISL_20289719    0.00%    passed     99.96%
+ 248  EPI_ISL_20289721    0.06%    passed    100.00%
+ 249  EPI_ISL_20289728    0.00%    passed    100.00%
+ 250  EPI_ISL_20289730    0.12%    passed     99.99%
+ 251  EPI_ISL_20289732    0.06%    passed     99.97%
+ 252  EPI_ISL_20289735    0.00%    passed     99.95%
+ 253  EPI_ISL_20289737    0.00%    passed     99.96%
+ 254  EPI_ISL_20289740    0.00%    passed     99.99%
+ 255  EPI_ISL_20289743    0.00%    passed    100.00%
+ 256  EPI_ISL_20289745    0.00%    passed     99.99%
+ 257  EPI_ISL_20289747    0.00%    passed    100.00%
+ 258  EPI_ISL_20289754    0.06%    passed     99.98%
+ 259  EPI_ISL_20289756    0.06%    passed     99.99%
+ 260  EPI_ISL_20292429    0.00%    passed     99.96%
+ 261  EPI_ISL_20292432    0.00%    passed     99.96%
+ 262  EPI_ISL_20292433    0.00%    passed     99.96%
+ 263  EPI_ISL_20292434    0.00%    passed    100.00%
+ 264  EPI_ISL_20292435    0.06%    passed     99.92%
+ 265  EPI_ISL_20292436    0.00%    passed    100.00%
+ 266  EPI_ISL_20292437    0.00%    passed    100.00%
+ 267  EPI_ISL_20292440    0.06%    passed    100.00%
+ 268  EPI_ISL_20292441    0.00%    passed     99.95%
+ 269  EPI_ISL_20292442    0.06%    passed     99.99%
+ 270  EPI_ISL_20292443    0.00%    passed     99.87%
+ 271  EPI_ISL_20292445    0.06%    passed     99.99%
+ 272  EPI_ISL_20292446    0.00%    passed    100.00%
+ 273  EPI_ISL_20292447    0.00%    passed     99.97%
+ 274  EPI_ISL_20292448    0.00%    passed     99.99%
+ 275  EPI_ISL_20292449    0.00%    passed     99.95%
+ 276  EPI_ISL_20292451    0.00%    passed     99.99%
+ 277  EPI_ISL_20292454    0.00%    passed     99.96%
+ 278  EPI_ISL_20292456    0.12%    passed     99.97%
+ 279  EPI_ISL_20292457    0.00%    passed     99.96%
+ 280  EPI_ISL_20292459    0.00%    passed     99.96%
+ 281  EPI_ISL_20292461    0.00%    passed     99.99%
+ 282  EPI_ISL_20292462    0.00%    passed     99.96%
+ 283  EPI_ISL_20292464    0.00%    passed     99.96%
+ 284  EPI_ISL_20292465    0.00%    passed     99.96%
+ 285  EPI_ISL_20292466    0.00%    passed     99.96%
+ 286  EPI_ISL_20292467    0.00%    passed     99.96%
+ 287  EPI_ISL_20292469    0.00%    passed     99.95%
+ 288  EPI_ISL_20292470    0.00%    passed     99.96%
+ 289  EPI_ISL_20292472    0.00%    passed     99.79%
+ 290  EPI_ISL_20292473    0.00%    passed     99.99%
+ 291  EPI_ISL_20292476    0.00%    passed     99.95%
+ 292  EPI_ISL_20292488    0.00%    passed     99.97%
+ 293  EPI_ISL_20292489    0.06%    passed     99.97%
+ 294  EPI_ISL_20295241    0.00%    passed     99.96%
+ 295  EPI_ISL_20295243    0.00%    passed    100.00%
+ 296  EPI_ISL_20295244    0.00%    passed    100.00%
+ 297  EPI_ISL_20295246    0.00%    passed     99.99%
+ 298  EPI_ISL_20295248    0.00%    passed     99.95%
+ 299  EPI_ISL_20295249    0.06%    passed     99.99%
+ 300  EPI_ISL_20295250    0.00%    passed     99.99%
+ 301  EPI_ISL_20295251    0.00%    passed    100.00%
+ 302  EPI_ISL_20295252    0.00%    passed     99.95%
+ 303  EPI_ISL_20295253    0.00%    passed     99.95%
+ 304  EPI_ISL_20295256    0.00%    passed    100.00%
+ 305  EPI_ISL_20295257    0.00%    passed     99.95%
+ 306  EPI_ISL_20295258    0.00%    passed     99.95%
+ 307  EPI_ISL_20295259    0.00%    passed     99.95%
+ 308  EPI_ISL_20295260    0.00%    passed     99.96%
+ 309  EPI_ISL_20295262    0.00%    passed     99.95%
+ 310  EPI_ISL_20295301    0.00%    passed     99.97%
+ 311  EPI_ISL_20295302    0.00%    passed    100.00%
+ 312  EPI_ISL_20295304    0.00%    passed    100.00%
+ 313  EPI_ISL_20295306    0.00%    passed    100.00%
+ 314  EPI_ISL_20295308    0.00%    passed     99.97%
+ 315  EPI_ISL_20295309    0.06%    passed     99.95%
+ 316  EPI_ISL_20295313    0.00%    passed     99.95%
+ 317  EPI_ISL_20295314    0.00%    passed     99.95%
+ 318  EPI_ISL_20295315    0.06%    passed     99.90%
+ 319  EPI_ISL_20295317    0.00%    passed    100.00%
+ 320  EPI_ISL_20295318    0.00%    passed     99.96%
+ 321  EPI_ISL_20295319    0.00%    passed     99.95%
+ 322  EPI_ISL_20295320    0.00%    passed    100.00%
+ 323  EPI_ISL_20295321    0.00%    passed     99.95%
+ 324  EPI_ISL_20295323    0.00%    passed    100.00%
+ 325  EPI_ISL_20295325    0.00%    passed     99.96%
+ 326  EPI_ISL_20295326    0.00%    passed    100.00%
+ 327  EPI_ISL_20295327    0.00%    passed     99.83%
+ 328  EPI_ISL_20295329    0.00%    passed     99.95%
+ 329  EPI_ISL_20295330    0.00%    passed     99.99%
+ 330  EPI_ISL_20295332    0.00%    passed     99.95%
+ 331  EPI_ISL_20295333    0.00%    passed     99.83%
+ 332  EPI_ISL_20295365    0.00%    passed     99.97%
+ 333  EPI_ISL_20295369    0.00%    passed    100.00%
+ 334  EPI_ISL_20295373    0.00%    passed     99.95%
+ 335  EPI_ISL_20295375    0.00%    passed     99.95%
+ 336  EPI_ISL_20295378    0.00%    passed     99.68%
+ 337  EPI_ISL_20295379    0.00%    passed    100.00%
+ 338  EPI_ISL_20295380    0.00%    passed     99.79%
+ 339  EPI_ISL_20297760    0.00%    passed     99.96%
+ 340  EPI_ISL_20297761    0.00%    passed     99.96%
+ 341  EPI_ISL_20297762    0.00%    passed     99.97%
+ 342  EPI_ISL_20297763    0.00%    passed     99.92%
+ 343  EPI_ISL_20297764    0.00%    passed     99.97%
+ 344  EPI_ISL_20297765    0.00%    passed     99.95%
+ 345  EPI_ISL_20297766    0.00%    passed     99.89%
+ 346  EPI_ISL_20297767    0.00%    passed     99.97%
+ 347  EPI_ISL_20297768    0.00%    passed     99.96%
+ 348  EPI_ISL_20297771    0.00%    passed     99.95%
+ 349  EPI_ISL_20297772    0.00%    passed    100.00%
+ 350  EPI_ISL_20297773    0.00%    passed     99.99%
+ 351  EPI_ISL_20297774    0.00%    passed     99.96%
+ 352  EPI_ISL_20297775    0.00%    passed     99.96%
+ 353  EPI_ISL_20297777    0.00%    passed     99.96%
+ 354  EPI_ISL_20297778    0.00%    passed     99.95%
+ 355  EPI_ISL_20297779    0.00%    passed     99.98%
+ 356  EPI_ISL_20297780    0.00%    passed     99.96%
+ 357  EPI_ISL_20297781    0.00%    passed     99.87%
+ 358  EPI_ISL_20297782    0.00%    passed     99.96%
+ 359  EPI_ISL_20297783    0.00%    passed     99.97%
+ 360  EPI_ISL_20297784    0.00%    passed     99.98%
+ 361  EPI_ISL_20297786    0.00%    passed     99.89%
+ 362  EPI_ISL_20297787    0.00%    passed     99.97%
+ 363  EPI_ISL_20297790    0.00%    passed     99.99%
+ 364  EPI_ISL_20297791    0.00%    passed     99.95%
+ 365  EPI_ISL_20297792    0.00%    passed     99.92%
+ 366  EPI_ISL_20297795    0.00%    passed     99.83%
+ 367  EPI_ISL_20297796    0.00%    passed     99.98%
+ 368  EPI_ISL_20297797    0.00%    passed     99.97%
+ 369  EPI_ISL_20297798    0.00%    passed     99.96%
+ 370  EPI_ISL_20297799    0.00%    passed     99.97%
+ 371  EPI_ISL_20297800    0.00%    passed     99.96%
+ 372  EPI_ISL_20297804    0.00%    passed     99.96%
+ 373  EPI_ISL_20297805    0.00%    passed     99.96%
+ 374  EPI_ISL_20297807    0.00%    passed     99.99%
+ 375  EPI_ISL_20297808    0.00%    passed     99.96%
+ 376  EPI_ISL_20297809    0.06%    passed     99.98%
+ 377  EPI_ISL_20297811    0.00%    passed     99.96%
+ 378  EPI_ISL_20297814    0.00%    passed     99.96%
+****  TOTAL               0.03%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: EPI_ISL_20249462 is identical to EPI_ISL_20236994 but kept for subsequent analysis
+NOTE: EPI_ISL_20267240 is identical to EPI_ISL_20244506 but kept for subsequent analysis
+NOTE: EPI_ISL_20244509 is identical to EPI_ISL_20244507 but kept for subsequent analysis
+NOTE: EPI_ISL_20267213 is identical to EPI_ISL_20244511 but kept for subsequent analysis
+NOTE: EPI_ISL_20249459 is identical to EPI_ISL_20249456 but kept for subsequent analysis
+NOTE: EPI_ISL_20258571 is identical to EPI_ISL_20249457 but kept for subsequent analysis
+NOTE: EPI_ISL_20249463 is identical to EPI_ISL_20249461 but kept for subsequent analysis
+NOTE: EPI_ISL_20292433 is identical to EPI_ISL_20255436 but kept for subsequent analysis
+NOTE: EPI_ISL_20281590 is identical to EPI_ISL_20257586 but kept for subsequent analysis
+NOTE: EPI_ISL_20257594 is identical to EPI_ISL_20257589 but kept for subsequent analysis
+NOTE: EPI_ISL_20258572 is identical to EPI_ISL_20258550 but kept for subsequent analysis
+NOTE: EPI_ISL_20258600 is identical to EPI_ISL_20258556 but kept for subsequent analysis
+NOTE: EPI_ISL_20258629 is identical to EPI_ISL_20258581 but kept for subsequent analysis
+NOTE: EPI_ISL_20289596 is identical to EPI_ISL_20258605 but kept for subsequent analysis
+NOTE: EPI_ISL_20289621 is identical to EPI_ISL_20266568 but kept for subsequent analysis
+NOTE: EPI_ISL_20287745 is identical to EPI_ISL_20266578 but kept for subsequent analysis
+NOTE: EPI_ISL_20289745 is identical to EPI_ISL_20266581 but kept for subsequent analysis
+NOTE: EPI_ISL_20282028 is identical to EPI_ISL_20267210 but kept for subsequent analysis
+NOTE: EPI_ISL_20267221 is identical to EPI_ISL_20267216 but kept for subsequent analysis
+NOTE: EPI_ISL_20295365 is identical to EPI_ISL_20281657 but kept for subsequent analysis
+NOTE: EPI_ISL_20295252 is identical to EPI_ISL_20281763 but kept for subsequent analysis
+NOTE: EPI_ISL_20295313 is identical to EPI_ISL_20281784 but kept for subsequent analysis
+NOTE: EPI_ISL_20295256 is identical to EPI_ISL_20281820 but kept for subsequent analysis
+NOTE: EPI_ISL_20295320 is identical to EPI_ISL_20283213 but kept for subsequent analysis
+NOTE: EPI_ISL_20287748 is identical to EPI_ISL_20287747 but kept for subsequent analysis
+NOTE: EPI_ISL_20289658 is identical to EPI_ISL_20289640 but kept for subsequent analysis
+NOTE: EPI_ISL_20297773 is identical to EPI_ISL_20292451 but kept for subsequent analysis
+NOTE: EPI_ISL_20295306 is identical to EPI_ISL_20295302 but kept for subsequent analysis
+NOTE: EPI_ISL_20297764 is identical to EPI_ISL_20297762 but kept for subsequent analysis
+NOTE: EPI_ISL_20297786 is identical to EPI_ISL_20297766 but kept for subsequent analysis
+NOTE: EPI_ISL_20297783 is identical to EPI_ISL_20297767 but kept for subsequent analysis
+NOTE: EPI_ISL_20297775 is identical to EPI_ISL_20297768 but kept for subsequent analysis
+NOTE: EPI_ISL_20297784 is identical to EPI_ISL_20297779 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.0339185 secs using 1141% CPU
+Identifying sites to remove: done in 0.000962774 secs using 161.1% CPU
+NOTE: 162 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: EPI_ISL_20257572 (identical to EPI_ISL_20236994) is ignored but added at the end
+NOTE: EPI_ISL_20295246 (identical to EPI_ISL_20236994) is ignored but added at the end
+NOTE: EPI_ISL_20283205 (identical to EPI_ISL_20244506) is ignored but added at the end
+NOTE: EPI_ISL_20244510 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20244512 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20255430 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20255431 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20255434 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20255435 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20255437 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20255438 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20258567 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20266574 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20267205 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20267209 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20267215 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20267219 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20267227 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20267228 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20267229 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20267230 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20267231 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20267232 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20267233 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20267234 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20267237 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20281961 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20283202 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20283207 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20283211 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20283214 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20287737 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20287738 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20287741 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20287742 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20287744 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20287752 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20287759 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20287760 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20289538 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20289542 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20289544 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20289546 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20289552 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20289554 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20292429 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20292432 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20292457 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20292459 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20292462 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20292465 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20292467 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20295260 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20295318 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20297760 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20297761 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20297774 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20297777 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20297780 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20297782 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20297798 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20297800 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20297804 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20297805 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20297814 (identical to EPI_ISL_20244507) is ignored but added at the end
+NOTE: EPI_ISL_20249466 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20257585 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20257587 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20258552 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20258555 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20258593 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20258601 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20258603 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20258610 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20258612 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20258624 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20260282 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20260285 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20266557 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20266569 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281592 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281604 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281615 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281618 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281621 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281627 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281629 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281636 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281639 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281642 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281651 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281661 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281662 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281664 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20281896 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20289619 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20289646 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20289656 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20289683 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20289743 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20292434 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20292437 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20295244 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20295251 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20297772 (identical to EPI_ISL_20249456) is ignored but added at the end
+NOTE: EPI_ISL_20258582 (identical to EPI_ISL_20249457) is ignored but added at the end
+NOTE: EPI_ISL_20258623 (identical to EPI_ISL_20249457) is ignored but added at the end
+NOTE: EPI_ISL_20266585 (identical to EPI_ISL_20249457) is ignored but added at the end
+NOTE: EPI_ISL_20281654 (identical to EPI_ISL_20249457) is ignored but added at the end
+NOTE: EPI_ISL_20289572 (identical to EPI_ISL_20249457) is ignored but added at the end
+NOTE: EPI_ISL_20289579 (identical to EPI_ISL_20249457) is ignored but added at the end
+NOTE: EPI_ISL_20289687 (identical to EPI_ISL_20249457) is ignored but added at the end
+NOTE: EPI_ISL_20292469 (identical to EPI_ISL_20249457) is ignored but added at the end
+NOTE: EPI_ISL_20292476 (identical to EPI_ISL_20249457) is ignored but added at the end
+NOTE: EPI_ISL_20253218 (identical to EPI_ISL_20249461) is ignored but added at the end
+NOTE: EPI_ISL_20257584 (identical to EPI_ISL_20249461) is ignored but added at the end
+NOTE: EPI_ISL_20260283 (identical to EPI_ISL_20249461) is ignored but added at the end
+NOTE: EPI_ISL_20260286 (identical to EPI_ISL_20249461) is ignored but added at the end
+NOTE: EPI_ISL_20281596 (identical to EPI_ISL_20257586) is ignored but added at the end
+NOTE: EPI_ISL_20281600 (identical to EPI_ISL_20257586) is ignored but added at the end
+NOTE: EPI_ISL_20281617 (identical to EPI_ISL_20257589) is ignored but added at the end
+NOTE: EPI_ISL_20281652 (identical to EPI_ISL_20257589) is ignored but added at the end
+NOTE: EPI_ISL_20289583 (identical to EPI_ISL_20257589) is ignored but added at the end
+NOTE: EPI_ISL_20289684 (identical to EPI_ISL_20257589) is ignored but added at the end
+NOTE: EPI_ISL_20289688 (identical to EPI_ISL_20257589) is ignored but added at the end
+NOTE: EPI_ISL_20258597 (identical to EPI_ISL_20258550) is ignored but added at the end
+NOTE: EPI_ISL_20258599 (identical to EPI_ISL_20258550) is ignored but added at the end
+NOTE: EPI_ISL_20289695 (identical to EPI_ISL_20258556) is ignored but added at the end
+NOTE: EPI_ISL_20287750 (identical to EPI_ISL_20266578) is ignored but added at the end
+NOTE: EPI_ISL_20292464 (identical to EPI_ISL_20266578) is ignored but added at the end
+NOTE: EPI_ISL_20295327 (identical to EPI_ISL_20267210) is ignored but added at the end
+NOTE: EPI_ISL_20267224 (identical to EPI_ISL_20267216) is ignored but added at the end
+NOTE: EPI_ISL_20267236 (identical to EPI_ISL_20267216) is ignored but added at the end
+NOTE: EPI_ISL_20267238 (identical to EPI_ISL_20267216) is ignored but added at the end
+NOTE: EPI_ISL_20267239 (identical to EPI_ISL_20267216) is ignored but added at the end
+NOTE: EPI_ISL_20283197 (identical to EPI_ISL_20267216) is ignored but added at the end
+NOTE: EPI_ISL_20283206 (identical to EPI_ISL_20267216) is ignored but added at the end
+NOTE: EPI_ISL_20283212 (identical to EPI_ISL_20267216) is ignored but added at the end
+NOTE: EPI_ISL_20292461 (identical to EPI_ISL_20267216) is ignored but added at the end
+NOTE: EPI_ISL_20297790 (identical to EPI_ISL_20267216) is ignored but added at the end
+NOTE: EPI_ISL_20297807 (identical to EPI_ISL_20267216) is ignored but added at the end
+NOTE: EPI_ISL_20295253 (identical to EPI_ISL_20281763) is ignored but added at the end
+NOTE: EPI_ISL_20295257 (identical to EPI_ISL_20281763) is ignored but added at the end
+NOTE: EPI_ISL_20295258 (identical to EPI_ISL_20281763) is ignored but added at the end
+NOTE: EPI_ISL_20295259 (identical to EPI_ISL_20281763) is ignored but added at the end
+NOTE: EPI_ISL_20295262 (identical to EPI_ISL_20281763) is ignored but added at the end
+NOTE: EPI_ISL_20295319 (identical to EPI_ISL_20281763) is ignored but added at the end
+NOTE: EPI_ISL_20295329 (identical to EPI_ISL_20281763) is ignored but added at the end
+NOTE: EPI_ISL_20295373 (identical to EPI_ISL_20281763) is ignored but added at the end
+NOTE: EPI_ISL_20297771 (identical to EPI_ISL_20281763) is ignored but added at the end
+NOTE: EPI_ISL_20297778 (identical to EPI_ISL_20281763) is ignored but added at the end
+NOTE: EPI_ISL_20297791 (identical to EPI_ISL_20281763) is ignored but added at the end
+NOTE: EPI_ISL_20295321 (identical to EPI_ISL_20281784) is ignored but added at the end
+NOTE: EPI_ISL_20295375 (identical to EPI_ISL_20281784) is ignored but added at the end
+NOTE: EPI_ISL_20295323 (identical to EPI_ISL_20281820) is ignored but added at the end
+NOTE: EPI_ISL_20295379 (identical to EPI_ISL_20283213) is ignored but added at the end
+NOTE: EPI_ISL_20287749 (identical to EPI_ISL_20287747) is ignored but added at the end
+NOTE: EPI_ISL_20297808 (identical to EPI_ISL_20287747) is ignored but added at the end
+NOTE: EPI_ISL_20297811 (identical to EPI_ISL_20287747) is ignored but added at the end
+NOTE: EPI_ISL_20297799 (identical to EPI_ISL_20297762) is ignored but added at the end
+NOTE: EPI_ISL_20297787 (identical to EPI_ISL_20297767) is ignored but added at the end
+NOTE: EPI_ISL_20297797 (identical to EPI_ISL_20297767) is ignored but added at the end
+Alignment was printed to CanadaOnly.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to CanadaOnly.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.010 seconds
+Measuring multi-threading efficiency up to 20 CPU cores
+Increase to 10 rounds for branch lengths
+454 trees examined
+Threads: 1 / Time: 20.006 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -6470
+Threads: 2 / Time: 18.778 sec / Speedup: 1.065 / Efficiency: 53% / LogL: -6470
+Threads: 3 / Time: 18.608 sec / Speedup: 1.075 / Efficiency: 36% / LogL: -6470
+Determining AUTO threadcount: done in 57.3945 secs using 195% CPU
+BEST NUMBER OF THREADS: 2
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 0.0409918 secs using 197.7% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -3918.811
+Optimal log-likelihood: -3918.811
+Rate parameters:  A-C: 2.20162  A-G: 15.09743  A-T: 0.82571  C-G: 0.21527  C-T: 13.96792  G-T: 1.00000
+Base frequencies:  A: 0.346  C: 0.192  G: 0.230  T: 0.232
+Proportion of invariable sites: 0.451
+Gamma shape alpha: 0.984
+Parameters optimization took 1 rounds (0.020 sec)
+Time for fast ML tree search: 0.219 seconds
+
+NOTE: ModelFinder requires 20 MB RAM!
+ModelFinder will test up to 968 DNA models (sample size: 1653 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  1  JC            4123.481     429 9104.962     9406.631     11426.001
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  2  JC+I          4103.709     430 9067.418     9370.740     11393.867
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  3  JC+G4         4103.087     430 9066.174     9369.496     11392.623
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  4  JC+I+G4       4102.130     431 9066.259     9371.242     11398.119
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  5  JC+R2         4104.054     431 9070.108     9375.091     11401.968
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  6  JC+R3         4102.525     433 9071.050     9379.371     11413.730
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 14  JC+I+R2       4103.624     432 9071.248     9377.898     11408.518
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 15  JC+I+R3       4102.630     434 9073.260     9383.260     11421.351
+ 24  JC+I          4103.709     430 9067.418     9370.740     11393.867
+ 25  JC+G4         4103.087     430 9066.174     9369.496     11392.623
+ 26  JC+I+G4       4102.130     431 9066.259     9371.242     11398.119
+ 27  JC+R2         4104.054     431 9070.108     9375.091     11401.968
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 46  F81+I         4103.626     430 9067.253     9370.575     11393.702
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 47  F81+G4        4103.007     430 9066.014     9369.337     11392.463
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 48  F81+I+G4      4102.049     431 9066.098     9371.081     11397.958
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 49  F81+R2        4103.984     431 9069.968     9374.950     11401.827
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 68  F81+F+I       4047.070     433 8960.140     9268.462     11302.821
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 69  F81+F+G4      4046.377     433 8958.753     9267.075     11301.433
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 70  F81+F+I+G4    4045.444     434 8958.888     9268.888     11306.978
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 71  F81+F+R2      4047.230     434 8962.461     9272.461     11310.551
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 90  K2P+I         4007.394     431 8876.788     9181.771     11208.648
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 91  K2P+G4        4006.784     431 8875.568     9180.550     11207.427
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 92  K2P+I+G4      4005.820     432 8875.641     9182.290     11212.911
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 93  K2P+R2        4007.444     432 8878.889     9185.538     11216.159
+112  K2P+I         4007.394     431 8876.788     9181.771     11208.648
+113  K2P+G4        4006.784     431 8875.568     9180.550     11207.427
+114  K2P+I+G4      4005.820     432 8875.641     9182.290     11212.911
+115  K2P+R2        4007.444     432 8878.889     9185.538     11216.159
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+134  HKY+I         4007.344     431 8876.688     9181.670     11208.547
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+135  HKY+G4        4006.731     431 8875.462     9180.445     11207.322
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+136  HKY+I+G4      4005.769     432 8875.537     9182.186     11212.807
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+137  HKY+R2        4007.355     432 8878.709     9185.358     11215.979
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+156  HKY+F+I       3954.374     434 8776.747     9086.747     11124.838
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+157  HKY+F+G4      3953.644     434 8775.289     9085.289     11123.379
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+158  HKY+F+I+G4    3952.872     435 8775.743     9087.428     11129.244
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+159  HKY+F+R2      3954.324     435 8778.648     9090.333     11132.149
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+178  TNe+I         3976.707     432 8817.415     9124.064     11154.685
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+179  TNe+G4        3976.132     432 8816.265     9122.914     11153.535
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+180  TNe+I+G4      3975.232     433 8816.464     9124.786     11159.145
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+181  TNe+R2        3976.891     433 8819.781     9128.103     11162.461
+200  TNe+I         3976.707     432 8817.415     9124.064     11154.685
+201  TNe+G4        3976.132     432 8816.265     9122.914     11153.535
+202  TNe+I+G4      3975.232     433 8816.464     9124.786     11159.145
+203  TNe+R2        3976.891     433 8819.781     9128.103     11162.461
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+222  TN+I          3976.688     432 8817.376     9124.025     11154.646
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+223  TN+G4         3976.121     432 8816.242     9122.891     11153.512
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+224  TN+I+G4       3975.223     433 8816.447     9124.769     11159.127
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+225  TN+R2         3976.843     433 8819.686     9128.008     11162.366
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+244  TN+F+I        3954.364     435 8778.729     9090.413     11132.230
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+245  TN+F+G4       3953.647     435 8777.294     9088.978     11130.795
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+246  TN+F+I+G4     3952.867     436 8777.734     9091.109     11136.646
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+247  TN+F+R2       3954.295     436 8780.589     9093.964     11139.501
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+266  K3P+I         3976.301     432 8816.602     9123.251     11153.872
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+267  K3P+G4        3975.684     432 8815.368     9122.017     11152.638
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+268  K3P+I+G4      3974.724     433 8815.449     9123.771     11158.129
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+269  K3P+R2        3976.313     433 8818.625     9126.947     11161.306
+288  K3P+I         3976.301     432 8816.602     9123.251     11153.872
+289  K3P+G4        3975.684     432 8815.368     9122.017     11152.638
+290  K3P+I+G4      3974.724     433 8815.449     9123.771     11158.129
+291  K3P+R2        3976.313     433 8818.625     9126.947     11161.306
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+310  K3Pu+I        3976.298     432 8816.596     9123.245     11153.866
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+311  K3Pu+G4       3975.681     432 8815.363     9122.012     11152.633
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+312  K3Pu+I+G4     3974.723     433 8815.447     9123.768     11158.127
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+313  K3Pu+R2       3976.290     433 8818.581     9126.903     11161.261
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+332  K3Pu+F+I      3922.681     435 8715.361     9027.046     11068.862
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+333  K3Pu+F+G4     3921.942     435 8713.883     9025.568     11067.384
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+334  K3Pu+F+I+G4   3921.161     436 8714.323     9027.698     11073.234
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+335  K3Pu+F+R2     3922.557     436 8717.114     9030.489     11076.025
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+354  TPM2+I        3975.972     432 8815.944     9122.594     11153.214
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+355  TPM2+G4       3975.392     432 8814.784     9121.434     11152.054
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+356  TPM2+I+G4     3974.379     433 8814.759     9123.080     11157.439
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+357  TPM2+R2       3976.080     433 8818.159     9126.481     11160.840
+376  TPM2+I        3975.972     432 8815.944     9122.594     11153.214
+377  TPM2+G4       3975.392     432 8814.784     9121.434     11152.054
+378  TPM2+I+G4     3974.379     433 8814.759     9123.080     11157.439
+379  TPM2+R2       3976.080     433 8818.159     9126.481     11160.840
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+398  TPM2u+I       3975.967     432 8815.934     9122.583     11153.204
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+399  TPM2u+G4      3975.389     432 8814.778     9121.428     11152.048
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+400  TPM2u+I+G4    3974.377     433 8814.755     9123.076     11157.435
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+401  TPM2u+R2      3976.042     433 8818.085     9126.406     11160.765
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+420  TPM2u+F+I     3923.757     435 8717.514     9029.199     11071.015
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+421  TPM2u+F+G4    3923.048     435 8716.095     9027.780     11069.596
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+422  TPM2u+F+I+G4  3922.245     436 8716.489     9029.864     11075.400
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+423  TPM2u+F+R2    3923.642     436 8719.283     9032.658     11078.195
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+442  TPM3+I        3978.853     432 8821.707     9128.356     11158.977
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+443  TPM3+G4       3978.231     432 8820.463     9127.112     11157.733
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+444  TPM3+I+G4     3977.271     433 8820.542     9128.863     11163.222
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+445  TPM3+R2       3978.854     433 8823.708     9132.030     11166.389
+464  TPM3+I        3978.853     432 8821.707     9128.356     11158.977
+465  TPM3+G4       3978.231     432 8820.463     9127.112     11157.733
+466  TPM3+I+G4     3977.271     433 8820.542     9128.863     11163.222
+467  TPM3+R2       3978.854     433 8823.708     9132.030     11166.389
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+486  TPM3u+I       3978.851     432 8821.701     9128.350     11158.971
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+487  TPM3u+G4      3978.220     432 8820.440     9127.089     11157.710
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+488  TPM3u+I+G4    3977.267     433 8820.533     9128.855     11163.214
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+489  TPM3u+R2      3978.834     433 8823.668     9131.989     11166.348
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+508  TPM3u+F+I     3925.063     435 8720.127     9031.811     11073.628
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+509  TPM3u+F+G4    3924.315     435 8718.631     9030.315     11072.132
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+510  TPM3u+F+I+G4  3923.536     436 8719.072     9032.447     11077.984
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+511  TPM3u+F+R2    3924.938     436 8721.876     9035.251     11080.788
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+530  TIMe+I        3973.831     433 8813.663     9121.984     11156.343
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+531  TIMe+G4       3973.257     433 8812.514     9120.836     11155.195
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+532  TIMe+I+G4     3972.359     434 8812.717     9122.717     11160.808
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+533  TIMe+R2       3973.800     434 8815.601     9125.601     11163.691
+552  TIMe+I        3973.831     433 8813.663     9121.984     11156.343
+553  TIMe+G4       3973.257     433 8812.514     9120.836     11155.195
+554  TIMe+I+G4     3972.359     434 8812.717     9122.717     11160.808
+555  TIMe+R2       3973.800     434 8815.601     9125.601     11163.691
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+574  TIM+I         3973.818     433 8813.636     9121.957     11156.316
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+575  TIM+G4        3973.251     433 8812.502     9120.824     11155.182
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+576  TIM+I+G4      3972.354     434 8812.708     9122.708     11160.798
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+577  TIM+R2        3973.782     434 8815.565     9125.565     11163.655
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+596  TIM+F+I       3922.555     436 8717.111     9030.486     11076.022
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+597  TIM+F+G4      3921.840     436 8715.680     9029.055     11074.592
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+598  TIM+F+I+G4    3921.061     437 8716.121     9031.193     11080.443
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+599  TIM+F+R2      3922.407     437 8718.813     9033.885     11083.135
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+618  TIM2e+I       3973.460     433 8812.920     9121.242     11155.600
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+619  TIM2e+G4      3972.926     433 8811.852     9120.173     11154.532
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+620  TIM2e+I+G4    3971.977     434 8811.955     9121.955     11160.045
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+621  TIM2e+R2      3973.488     434 8814.975     9124.975     11163.066
+640  TIM2e+I       3973.460     433 8812.920     9121.242     11155.600
+641  TIM2e+G4      3972.926     433 8811.852     9120.173     11154.532
+642  TIM2e+I+G4    3971.977     434 8811.955     9121.955     11160.045
+643  TIM2e+R2      3973.488     434 8814.975     9124.975     11163.066
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+662  TIM2+I        3973.434     433 8812.868     9121.190     11155.549
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+663  TIM2+G4       3972.909     433 8811.819     9120.140     11154.499
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+664  TIM2+I+G4     3971.965     434 8811.931     9121.931     11160.022
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+665  TIM2+R2       3973.455     434 8814.910     9124.910     11163.001
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+684  TIM2+F+I      3923.651     436 8719.302     9032.677     11078.213
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+685  TIM2+F+G4     3922.965     436 8717.929     9031.304     11076.841
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+686  TIM2+F+I+G4   3922.158     437 8718.315     9033.387     11082.637
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+687  TIM2+F+R2     3923.500     437 8721.000     9036.071     11085.321
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+706  TIM3e+I       3976.381     433 8818.761     9127.083     11161.441
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+707  TIM3e+G4      3975.794     433 8817.588     9125.910     11160.268
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+708  TIM3e+I+G4    3974.905     434 8817.809     9127.809     11165.900
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+709  TIM3e+R2      3976.328     434 8820.655     9130.655     11168.746
+728  TIM3e+I       3976.381     433 8818.761     9127.083     11161.441
+729  TIM3e+G4      3975.794     433 8817.588     9125.910     11160.268
+730  TIM3e+I+G4    3974.905     434 8817.809     9127.809     11165.900
+731  TIM3e+R2      3976.328     434 8820.655     9130.655     11168.746
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+750  TIM3+I        3976.362     433 8818.724     9127.045     11161.404
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+751  TIM3+G4       3975.783     433 8817.566     9125.888     11160.246
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+752  TIM3+I+G4     3974.894     434 8817.788     9127.788     11165.878
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+753  TIM3+R2       3976.310     434 8820.621     9130.621     11168.712
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+772  TIM3+F+I      3924.937     436 8721.875     9035.250     11080.786
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+773  TIM3+F+G4     3924.214     436 8720.427     9033.802     11079.339
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+774  TIM3+F+I+G4   3923.434     437 8720.868     9035.939     11085.189
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+775  TIM3+F+R2     3924.787     437 8723.574     9038.646     11087.896
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+794  TVMe+I        3972.862     434 8813.723     9123.723     11161.814
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+795  TVMe+G4       3972.273     434 8812.546     9122.546     11160.637
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+796  TVMe+I+G4     3971.266     435 8812.532     9124.217     11166.033
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+797  TVMe+R2       3972.893     435 8815.785     9127.470     11169.286
+816  TVMe+I        3972.862     434 8813.723     9123.723     11161.814
+817  TVMe+G4       3972.273     434 8812.546     9122.546     11160.637
+818  TVMe+I+G4     3971.266     435 8812.532     9124.217     11166.033
+819  TVMe+R2       3972.893     435 8815.785     9127.470     11169.286
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+838  TVM+I         3972.860     434 8813.720     9123.720     11161.811
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+839  TVM+G4        3972.270     434 8812.541     9122.541     11160.631
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+840  TVM+I+G4      3971.264     435 8812.527     9124.212     11166.028
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+841  TVM+R2        3972.863     435 8815.725     9127.410     11169.226
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+860  TVM+F+I       3920.369     437 8714.738     9029.810     11079.060
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+861  TVM+F+G4      3919.638     437 8713.275     9028.347     11077.597
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+862  TVM+F+I+G4    3918.841     438 8713.683     9030.457     11083.415
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+863  TVM+F+R2      3920.233     438 8716.466     9033.240     11086.198
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+882  SYM+I         3970.341     435 8810.682     9122.367     11164.183
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+883  SYM+G4        3969.796     435 8809.593     9121.277     11163.094
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+884  SYM+I+G4      3968.854     436 8809.709     9123.084     11168.620
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+885  SYM+R2        3970.286     436 8812.572     9125.947     11171.483
+904  SYM+I         3970.341     435 8810.682     9122.367     11164.183
+905  SYM+G4        3969.796     435 8809.593     9121.277     11163.094
+906  SYM+I+G4      3968.854     436 8809.709     9123.084     11168.620
+907  SYM+R2        3970.286     436 8812.572     9125.947     11171.483
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+926  GTR+I         3970.319     435 8810.638     9122.322     11164.139
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+927  GTR+G4        3969.783     435 8809.566     9121.250     11163.067
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+928  GTR+I+G4      3968.845     436 8809.689     9123.064     11168.601
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+929  GTR+R2        3970.266     436 8812.533     9125.908     11171.444
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+948  GTR+F+I       3920.257     438 8716.514     9033.288     11086.246
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+949  GTR+F+G4      3919.551     438 8715.103     9031.877     11084.835
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+950  GTR+F+I+G4    3918.752     439 8715.503     9033.986     11090.645
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+951  GTR+F+R2      3920.087     439 8718.174     9036.657     11093.317
+Akaike Information Criterion:           TVM+F+G4
+Corrected Akaike Information Criterion: K3Pu+F+G4
+Bayesian Information Criterion:         K3Pu+F+G4
+Best-fit model: K3Pu+F+G4 chosen according to BIC
+
+All model information printed to CanadaOnly.model.gz
+CPU time for ModelFinder: 122.924 seconds (0h:2m:2s)
+Wall-clock time for ModelFinder: 62.885 seconds (0h:1m:2s)
+Generating 10000 samples for ultrafast bootstrap (seed: 861552)...
+
+NOTE: 12 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -3921.990
+Optimal log-likelihood: -3921.940
+Rate parameters:  A-C: 1.00000  A-G: 8.99013  A-T: 0.36452  C-G: 0.36452  C-T: 8.99013  G-T: 1.00000
+Base frequencies:  A: 0.346  C: 0.192  G: 0.230  T: 0.232
+Gamma shape alpha: 0.256
+Parameters optimization took 1 rounds (0.031 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0582231 secs using 203.2% CPU
+Computing ML distances took 0.059656 sec (of wall-clock time) 0.118582 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000609679 secs using 178% CPU
+Constructing RapidNJ tree: done in 0.0301034 secs using 10.63% CPU
+Computing RapidNJ tree took 0.034466 sec (of wall-clock time) 0.004448 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -3916.690
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.636 second
+Computing log-likelihood of 98 initial trees ... 0.537 seconds
+Current best score: -3908.713
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 0.20539 secs using 201.3% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -3908.659
+Optimizing NNI: done in 0.101815 secs using 202.1% CPU
+Optimizing NNI: done in 0.18434 secs using 195.5% CPU
+Optimizing NNI: done in 0.109273 secs using 198.8% CPU
+Optimizing NNI: done in 0.190866 secs using 198.5% CPU
+Optimizing NNI: done in 0.190816 secs using 198.5% CPU
+Optimizing NNI: done in 0.191501 secs using 196.1% CPU
+Optimizing NNI: done in 0.186489 secs using 200.8% CPU
+Optimizing NNI: done in 0.193372 secs using 197.2% CPU
+Optimizing NNI: done in 0.190576 secs using 200.7% CPU
+Iteration 10 / LogL: -3910.555 / Time: 0h:1m:6s
+Optimizing NNI: done in 0.187969 secs using 200% CPU
+Optimizing NNI: done in 0.309074 secs using 198.3% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 12: -3908.604
+Optimizing NNI: done in 0.193625 secs using 199.2% CPU
+Optimizing NNI: done in 0.185051 secs using 201.6% CPU
+Optimizing NNI: done in 0.202791 secs using 198.7% CPU
+Optimizing NNI: done in 0.186841 secs using 200.6% CPU
+Optimizing NNI: done in 0.103457 secs using 196.7% CPU
+Optimizing NNI: done in 0.196699 secs using 199.6% CPU
+Optimizing NNI: done in 0.188804 secs using 199.6% CPU
+Optimizing NNI: done in 0.183619 secs using 200.2% CPU
+Iteration 20 / LogL: -3911.590 / Time: 0h:1m:8s
+Finish initializing candidate tree set (20)
+Current best tree score: -3908.604 / CPU time: 4.992
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 0.334951 secs using 200.1% CPU
+Optimizing NNI: done in 0.239836 secs using 197.2% CPU
+Optimizing NNI: done in 0.313009 secs using 198.2% CPU
+Optimizing NNI: done in 0.402268 secs using 198.4% CPU
+Optimizing NNI: done in 0.277302 secs using 200.1% CPU
+Optimizing NNI: done in 0.204914 secs using 196.6% CPU
+Optimizing NNI: done in 0.21665 secs using 196% CPU
+Optimizing NNI: done in 0.229603 secs using 197.1% CPU
+Optimizing NNI: done in 0.362363 secs using 199.6% CPU
+Optimizing NNI: done in 0.281734 secs using 197.1% CPU
+Iteration 30 / LogL: -3912.510 / Time: 0h:1m:11s (0h:0m:24s left)
+Optimizing NNI: done in 0.29317 secs using 197.4% CPU
+Optimizing NNI: done in 0.339038 secs using 199.1% CPU
+Optimizing NNI: done in 0.273769 secs using 197.9% CPU
+Optimizing NNI: done in 0.215478 secs using 197% CPU
+Optimizing NNI: done in 0.289473 secs using 199.5% CPU
+Optimizing NNI: done in 0.316121 secs using 200% CPU
+Optimizing NNI: done in 0.261455 secs using 197.6% CPU
+Optimizing NNI: done in 0.262906 secs using 196.3% CPU
+Optimizing NNI: done in 0.288745 secs using 195.6% CPU
+Optimizing NNI: done in 0.297883 secs using 199.7% CPU
+Iteration 40 / LogL: -3908.729 / Time: 0h:1m:14s (0h:0m:21s left)
+Optimizing NNI: done in 0.305905 secs using 197% CPU
+Optimizing NNI: done in 0.3328 secs using 200% CPU
+Optimizing NNI: done in 0.25739 secs using 197.4% CPU
+Optimizing NNI: done in 0.304754 secs using 198.3% CPU
+Optimizing NNI: done in 0.312238 secs using 198.6% CPU
+Optimizing NNI: done in 0.247438 secs using 198.4% CPU
+Optimizing NNI: done in 0.263779 secs using 199.7% CPU
+Optimizing NNI: done in 0.304602 secs using 199.8% CPU
+Optimizing NNI: done in 0.284954 secs using 196.7% CPU
+Optimizing NNI: done in 0.372541 secs using 198.4% CPU
+Iteration 50 / LogL: -3908.679 / Time: 0h:1m:17s (0h:0m:18s left)
+Log-likelihood cutoff on original alignment: -3942.790
+Optimizing NNI: done in 0.211858 secs using 199.8% CPU
+Optimizing NNI: done in 0.345882 secs using 197.8% CPU
+Optimizing NNI: done in 0.305074 secs using 197.8% CPU
+Optimizing NNI: done in 0.325496 secs using 199% CPU
+Optimizing NNI: done in 0.244208 secs using 199.6% CPU
+Optimizing NNI: done in 0.333262 secs using 197.6% CPU
+Optimizing NNI: done in 0.226485 secs using 195.8% CPU
+Optimizing NNI: done in 0.231602 secs using 197.3% CPU
+Optimizing NNI: done in 0.222434 secs using 195.2% CPU
+Optimizing NNI: done in 0.24329 secs using 199.2% CPU
+Iteration 60 / LogL: -3919.496 / Time: 0h:1m:24s (0h:0m:19s left)
+Optimizing NNI: done in 0.222434 secs using 198.8% CPU
+Optimizing NNI: done in 0.245542 secs using 196.1% CPU
+Optimizing NNI: done in 0.181764 secs using 199.7% CPU
+Optimizing NNI: done in 0.301371 secs using 198.5% CPU
+Optimizing NNI: done in 0.274145 secs using 198.5% CPU
+Optimizing NNI: done in 0.233078 secs using 197% CPU
+Optimizing NNI: done in 0.247977 secs using 194.5% CPU
+Optimizing NNI: done in 0.314133 secs using 195.2% CPU
+Optimizing NNI: done in 0.29721 secs using 199.3% CPU
+Optimizing NNI: done in 0.19449 secs using 196.7% CPU
+Iteration 70 / LogL: -3915.721 / Time: 0h:1m:27s (0h:0m:14s left)
+Optimizing NNI: done in 0.236627 secs using 196% CPU
+Optimizing NNI: done in 0.36047 secs using 196.9% CPU
+Optimizing NNI: done in 0.26783 secs using 195.4% CPU
+Optimizing NNI: done in 0.288697 secs using 196.5% CPU
+Optimizing NNI: done in 0.380752 secs using 199.7% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 75: -3907.323
+Optimizing NNI: done in 0.232964 secs using 193.9% CPU
+Optimizing NNI: done in 0.22091 secs using 198.9% CPU
+Optimizing NNI: done in 0.408181 secs using 198.8% CPU
+Optimizing NNI: done in 0.342647 secs using 198.5% CPU
+Optimizing NNI: done in 0.156181 secs using 199.8% CPU
+Iteration 80 / LogL: -3931.370 / Time: 0h:1m:30s (0h:0m:33s left)
+Optimizing NNI: done in 0.241204 secs using 197.4% CPU
+Optimizing NNI: done in 0.218134 secs using 195.7% CPU
+Optimizing NNI: done in 0.22085 secs using 197.9% CPU
+Optimizing NNI: done in 0.295625 secs using 195.3% CPU
+Optimizing NNI: done in 0.318889 secs using 199.1% CPU
+Optimizing NNI: done in 0.36377 secs using 199.2% CPU
+Optimizing NNI: done in 0.252024 secs using 197.8% CPU
+Optimizing NNI: done in 0.239394 secs using 199.7% CPU
+Optimizing NNI: done in 0.283667 secs using 196.8% CPU
+Optimizing NNI: done in 0.321777 secs using 197.3% CPU
+Iteration 90 / LogL: -3907.409 / Time: 0h:1m:33s (0h:0m:29s left)
+Optimizing NNI: done in 0.128422 secs using 195.9% CPU
+Optimizing NNI: done in 0.287555 secs using 198.7% CPU
+Optimizing NNI: done in 0.274997 secs using 197.8% CPU
+Optimizing NNI: done in 0.239349 secs using 198% CPU
+Optimizing NNI: done in 0.320189 secs using 199.1% CPU
+Optimizing NNI: done in 0.287819 secs using 198.2% CPU
+Optimizing NNI: done in 0.34405 secs using 200% CPU
+Optimizing NNI: done in 0.353803 secs using 198.6% CPU
+Optimizing NNI: done in 0.22254 secs using 197.1% CPU
+Optimizing NNI: done in 0.293322 secs using 198.2% CPU
+Iteration 100 / LogL: -3907.396 / Time: 0h:1m:36s (0h:0m:25s left)
+Log-likelihood cutoff on original alignment: -3942.790
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.991
+Optimizing NNI: done in 0.250267 secs using 199% CPU
+Optimizing NNI: done in 0.296152 secs using 197.7% CPU
+Optimizing NNI: done in 0.359943 secs using 197.4% CPU
+Optimizing NNI: done in 0.301763 secs using 196.7% CPU
+Optimizing NNI: done in 0.385376 secs using 198.9% CPU
+Optimizing NNI: done in 0.329181 secs using 199% CPU
+Optimizing NNI: done in 0.229172 secs using 197.2% CPU
+Optimizing NNI: done in 0.323973 secs using 197.5% CPU
+Optimizing NNI: done in 0.435434 secs using 197.7% CPU
+Optimizing NNI: done in 0.243257 secs using 200.1% CPU
+Iteration 110 / LogL: -3907.377 / Time: 0h:1m:43s (0h:0m:33s left)
+Optimizing NNI: done in 0.262428 secs using 194.3% CPU
+Optimizing NNI: done in 0.364815 secs using 200.2% CPU
+Optimizing NNI: done in 0.239443 secs using 196.9% CPU
+Optimizing NNI: done in 0.203664 secs using 192.3% CPU
+Optimizing NNI: done in 0.250127 secs using 199.1% CPU
+Optimizing NNI: done in 0.255991 secs using 199.1% CPU
+Optimizing NNI: done in 0.155647 secs using 193.1% CPU
+Optimizing NNI: done in 0.204132 secs using 198% CPU
+Optimizing NNI: done in 0.290499 secs using 200.2% CPU
+Optimizing NNI: done in 0.18982 secs using 192.1% CPU
+Iteration 120 / LogL: -3907.392 / Time: 0h:1m:46s (0h:0m:29s left)
+Optimizing NNI: done in 0.219364 secs using 199.6% CPU
+Optimizing NNI: done in 0.392433 secs using 198.7% CPU
+Optimizing NNI: done in 0.298212 secs using 200% CPU
+Optimizing NNI: done in 0.414647 secs using 198.9% CPU
+Optimizing NNI: done in 0.248217 secs using 197.9% CPU
+Optimizing NNI: done in 0.226265 secs using 192.7% CPU
+Optimizing NNI: done in 0.285719 secs using 197.9% CPU
+Optimizing NNI: done in 0.307414 secs using 198.9% CPU
+Optimizing NNI: done in 0.324668 secs using 197.3% CPU
+Optimizing NNI: done in 0.349323 secs using 199.4% CPU
+Iteration 130 / LogL: -3907.369 / Time: 0h:1m:50s (0h:0m:25s left)
+Optimizing NNI: done in 0.333935 secs using 197% CPU
+Optimizing NNI: done in 0.380386 secs using 198.1% CPU
+Optimizing NNI: done in 0.320161 secs using 199.8% CPU
+Optimizing NNI: done in 0.216373 secs using 197.1% CPU
+Optimizing NNI: done in 0.229556 secs using 198.5% CPU
+Optimizing NNI: done in 0.381204 secs using 199.4% CPU
+Optimizing NNI: done in 0.29202 secs using 197.5% CPU
+Optimizing NNI: done in 0.243687 secs using 198.2% CPU
+Optimizing NNI: done in 0.344138 secs using 198.8% CPU
+Optimizing NNI: done in 0.230898 secs using 197.7% CPU
+Iteration 140 / LogL: -3907.386 / Time: 0h:1m:53s (0h:0m:21s left)
+Optimizing NNI: done in 0.353287 secs using 197.1% CPU
+Optimizing NNI: done in 0.219338 secs using 198.3% CPU
+Optimizing NNI: done in 0.231911 secs using 197.9% CPU
+Optimizing NNI: done in 0.235406 secs using 197.4% CPU
+Optimizing NNI: done in 0.318912 secs using 197% CPU
+Optimizing NNI: done in 0.249062 secs using 198.3% CPU
+Optimizing NNI: done in 0.294607 secs using 200% CPU
+Optimizing NNI: done in 0.326624 secs using 198.3% CPU
+Optimizing NNI: done in 0.283394 secs using 199.7% CPU
+Optimizing NNI: done in 0.141715 secs using 197.2% CPU
+Iteration 150 / LogL: -3940.172 / Time: 0h:1m:56s (0h:0m:18s left)
+Log-likelihood cutoff on original alignment: -3943.089
+Optimizing NNI: done in 0.24333 secs using 197% CPU
+Optimizing NNI: done in 0.294347 secs using 199.1% CPU
+Optimizing NNI: done in 0.109104 secs using 197.6% CPU
+Optimizing NNI: done in 0.28633 secs using 199.2% CPU
+Optimizing NNI: done in 0.195281 secs using 199.8% CPU
+Optimizing NNI: done in 0.314251 secs using 198.8% CPU
+Optimizing NNI: done in 0.279535 secs using 198.2% CPU
+Optimizing NNI: done in 0.283606 secs using 199.2% CPU
+Optimizing NNI: done in 0.327758 secs using 197.6% CPU
+Optimizing NNI: done in 0.237541 secs using 197.7% CPU
+Iteration 160 / LogL: -3907.388 / Time: 0h:2m:3s (0h:0m:15s left)
+Optimizing NNI: done in 0.333819 secs using 199.5% CPU
+Optimizing NNI: done in 0.344015 secs using 196.9% CPU
+Optimizing NNI: done in 0.239628 secs using 198.5% CPU
+Optimizing NNI: done in 0.401356 secs using 197.6% CPU
+Optimizing NNI: done in 0.375828 secs using 200% CPU
+Optimizing NNI: done in 0.254714 secs using 199.8% CPU
+Optimizing NNI: done in 0.278976 secs using 197.4% CPU
+Optimizing NNI: done in 0.232493 secs using 195.6% CPU
+Optimizing NNI: done in 0.256214 secs using 197.3% CPU
+Optimizing NNI: done in 0.316138 secs using 198.7% CPU
+Iteration 170 / LogL: -3907.418 / Time: 0h:2m:7s (0h:0m:11s left)
+Optimizing NNI: done in 0.216269 secs using 197.6% CPU
+Optimizing NNI: done in 0.237215 secs using 199.9% CPU
+Optimizing NNI: done in 0.435312 secs using 197.8% CPU
+Optimizing NNI: done in 0.228034 secs using 196.5% CPU
+Optimizing NNI: done in 0.44779 secs using 198.6% CPU
+Optimizing NNI: done in 0.307664 secs using 197% CPU
+TREE SEARCH COMPLETED AFTER 176 ITERATIONS / Time: 0h:2m:9s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -3907.323
+Optimal log-likelihood: -3907.323
+Rate parameters:  A-C: 1.00000  A-G: 8.42578  A-T: 0.34442  C-G: 0.34442  C-T: 8.42578  G-T: 1.00000
+Base frequencies:  A: 0.346  C: 0.192  G: 0.230  T: 0.232
+Gamma shape alpha: 0.251
+Parameters optimization took 1 rounds (0.018 sec)
+BEST SCORE FOUND : -3907.323
+
+Testing tree branches by SH-like aLRT with 10000 replicates...
+7.100 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file CanadaOnly.splits.nex
+Total tree length: 0.120
+
+Total number of iterations: 176
+CPU time used for tree search: 114.840 sec (0h:1m:54s)
+Wall-clock time used for tree search: 65.980 sec (0h:1m:5s)
+Total CPU time used: 255.688 sec (0h:4m:15s)
+Total wall-clock time used: 140.658 sec (0h:2m:20s)
+
+Computing bootstrap consensus tree...
+Reading input file CanadaOnly.splits.nex...
+216 taxa and 9574 splits.
+Consensus tree written to CanadaOnly.contree
+Reading input trees file CanadaOnly.contree
+Log-likelihood of consensus tree: -3909.443
+
+Analysis results written to: 
+  IQ-TREE report:                CanadaOnly.iqtree
+  Maximum-likelihood tree:       CanadaOnly.treefile
+  Likelihood distances:          CanadaOnly.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          CanadaOnly.splits.nex
+  Consensus tree:                CanadaOnly.contree
+  Screen log file:               CanadaOnly.log
+
+Date and Time: Mon Jan 12 14:06:34 2026
